@@ -1,0 +1,8 @@
+rclpy
+sensor_msgs
+geometry_msgs
+cv_bridge
+opencv-python
+torch>=2.0.0
+ultralytics>=8.0.0  # For YOLOv8
+numpy

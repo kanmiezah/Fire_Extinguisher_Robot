@@ -1,0 +1,21 @@
+[5.505s] Invoking command in '/home/nathaniel/fxb_ws/src/yolo_inference': PYTHONPATH=/home/nathaniel/fxb_ws/build/yolo_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_inference build --build-base /home/nathaniel/fxb_ws/build/yolo_inference/build install --record /home/nathaniel/fxb_ws/build/yolo_inference/install.log --single-version-externally-managed install_data
+[6.716s] running egg_info
+[6.813s] writing ../../build/yolo_inference/yolo_inference.egg-info/PKG-INFO
+[6.814s] writing dependency_links to ../../build/yolo_inference/yolo_inference.egg-info/dependency_links.txt
+[6.818s] writing entry points to ../../build/yolo_inference/yolo_inference.egg-info/entry_points.txt
+[6.819s] writing requirements to ../../build/yolo_inference/yolo_inference.egg-info/requires.txt
+[6.819s] writing top-level names to ../../build/yolo_inference/yolo_inference.egg-info/top_level.txt
+[7.022s] reading manifest file '../../build/yolo_inference/yolo_inference.egg-info/SOURCES.txt'
+[7.032s] writing manifest file '../../build/yolo_inference/yolo_inference.egg-info/SOURCES.txt'
+[7.034s] running build
+[7.034s] running build_py
+[7.035s] running install
+[7.066s] running install_lib
+[7.141s] running install_data
+[7.144s] running install_egg_info
+[7.226s] removing '/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference-0.0.0-py3.12.egg-info' (and everything under it)
+[7.227s] Copying ../../build/yolo_inference/yolo_inference.egg-info to /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference-0.0.0-py3.12.egg-info
+[7.229s] running install_scripts
+[7.802s] Installing yolo_node script to /home/nathaniel/fxb_ws/install/yolo_inference/lib/yolo_inference
+[7.802s] writing list of installed files to '/home/nathaniel/fxb_ws/build/yolo_inference/install.log'
+[7.898s] Invoked command in '/home/nathaniel/fxb_ws/src/yolo_inference' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/yolo_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_inference build --build-base /home/nathaniel/fxb_ws/build/yolo_inference/build install --record /home/nathaniel/fxb_ws/build/yolo_inference/install.log --single-version-externally-managed install_data

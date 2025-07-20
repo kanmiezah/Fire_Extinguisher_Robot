@@ -1,0 +1,5 @@
+[0.019s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[0.049s] [0mCMake Error: The source directory "/home/nathaniel/fxb_ws/src/fire_confidence_node" does not appear to contain CMakeLists.txt.
+[0.050s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.051s] gmake: *** [Makefile:268: cmake_check_build_system] Error 1
+[0.055s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '2': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8

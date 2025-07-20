@@ -1,0 +1,11 @@
+
+---
+
+### ✅ 4. **requirements.txt**
+
+Create a `requirements.txt` in the same directory:
+
+```txt
+rclpy
+std_msgs
+RPi.GPIO; platform_system=="Linux"

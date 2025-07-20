@@ -1,0 +1,10 @@
+[0.396s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake /home/nathaniel/fxb_ws/src/fire_confidence_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nathaniel/fxb_ws/install/fire_confidence_node
+[2.176s] [33mCMake Warning:
+[2.176s]   Ignoring extra path from command line:
+[2.177s] 
+[2.177s]    "/home/nathaniel/fxb_ws/src/fire_confidence_node"
+[2.177s] 
+[2.177s] [0m
+[2.178s] [0mCMake Error: The source directory "/home/nathaniel/fxb_ws/src/fire_confidence_node" does not appear to contain CMakeLists.txt.
+[2.178s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[2.181s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '1': /usr/bin/cmake /home/nathaniel/fxb_ws/src/fire_confidence_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nathaniel/fxb_ws/install/fire_confidence_node

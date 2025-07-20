@@ -1,0 +1,9 @@
+/home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.sh
+/home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.dsv
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/top_level.txt
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/PKG-INFO
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/SOURCES.txt
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/dependency_links.txt
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py
+/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/fire_confidence_node/fire_confidence_node.py

@@ -1,0 +1,23 @@
+running egg_info
+creating ../../build/lidar_node/lidar_node.egg-info
+writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt
+writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt
+writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt
+writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/nathaniel/fxb_ws/install/lidar_node/share/ament_index
+creating /home/nathaniel/fxb_ws/install/lidar_node/share/ament_index/resource_index
+creating /home/nathaniel/fxb_ws/install/lidar_node/share/ament_index/resource_index/packages
+copying resource/lidar_node -> /home/nathaniel/fxb_ws/install/lidar_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/nathaniel/fxb_ws/install/lidar_node/share/lidar_node
+creating /home/nathaniel/fxb_ws/install/lidar_node/share/lidar_node/launch
+copying launch/lidar.launch.py -> /home/nathaniel/fxb_ws/install/lidar_node/share/lidar_node/launch
+running install_egg_info
+Copying ../../build/lidar_node/lidar_node.egg-info to /home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/nathaniel/fxb_ws/build/lidar_node/install.log'

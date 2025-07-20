@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000296] (camera_node) JobQueued: {'identifier': 'camera_node', 'dependencies': OrderedDict()}
+[0.000399] (comm_node) JobQueued: {'identifier': 'comm_node', 'dependencies': OrderedDict()}
+[0.000466] (diff_drive_odometry_node) JobQueued: {'identifier': 'diff_drive_odometry_node', 'dependencies': OrderedDict()}
+[0.000527] (fire_confidence_node) JobQueued: {'identifier': 'fire_confidence_node', 'dependencies': OrderedDict()}
+[0.000586] (firebot_description) JobQueued: {'identifier': 'firebot_description', 'dependencies': OrderedDict()}
+[0.000649] (lidar_node) JobQueued: {'identifier': 'lidar_node', 'dependencies': OrderedDict()}
+[0.000708] (motor_control_node) JobQueued: {'identifier': 'motor_control_node', 'dependencies': OrderedDict()}
+[0.000786] (odometry_node) JobQueued: {'identifier': 'odometry_node', 'dependencies': OrderedDict()}
+[0.000844] (sensor_fusion_node) JobQueued: {'identifier': 'sensor_fusion_node', 'dependencies': OrderedDict()}
+[0.000870] (smoke_sensor_node) JobQueued: {'identifier': 'smoke_sensor_node', 'dependencies': OrderedDict()}
+[0.000971] (state_machine_node) JobQueued: {'identifier': 'state_machine_node', 'dependencies': OrderedDict()}
+[0.001031] (suppression_node) JobQueued: {'identifier': 'suppression_node', 'dependencies': OrderedDict()}
+[0.001059] (yolo_inference) JobQueued: {'identifier': 'yolo_inference', 'dependencies': OrderedDict()}
+[0.001114] (bringup) JobQueued: {'identifier': 'bringup', 'dependencies': OrderedDict({'camera_node': '/home/nathaniel/fxb_ws/install/camera_node', 'fire_confidence_node': '/home/nathaniel/fxb_ws/install/fire_confidence_node', 'motor_control_node': '/home/nathaniel/fxb_ws/install/motor_control_node', 'sensor_fusion_node': '/home/nathaniel/fxb_ws/install/sensor_fusion_node', 'smoke_sensor_node': '/home/nathaniel/fxb_ws/install/smoke_sensor_node', 'state_machine_node': '/home/nathaniel/fxb_ws/install/state_machine_node', 'suppression_node': '/home/nathaniel/fxb_ws/install/suppression_node', 'yolo_inference': '/home/nathaniel/fxb_ws/install/yolo_inference'})}
+[0.001215] (camera_node) JobStarted: {'identifier': 'camera_node'}
+[0.011291] (fire_confidence_node) JobStarted: {'identifier': 'fire_confidence_node'}
+[0.018785] (motor_control_node) JobStarted: {'identifier': 'motor_control_node'}
+[0.026304] (sensor_fusion_node) JobStarted: {'identifier': 'sensor_fusion_node'}
+[0.035174] (smoke_sensor_node) JobStarted: {'identifier': 'smoke_sensor_node'}
+[0.043040] (state_machine_node) JobStarted: {'identifier': 'state_machine_node'}
+[0.053747] (suppression_node) JobStarted: {'identifier': 'suppression_node'}
+[0.063420] (yolo_inference) JobStarted: {'identifier': 'yolo_inference'}
+[0.097943] (-) TimerEvent: {}
+[0.198332] (-) TimerEvent: {}
+[0.298860] (-) TimerEvent: {}
+[0.399321] (-) TimerEvent: {}
+[0.474509] (fire_confidence_node) JobProgress: {'identifier': 'fire_confidence_node', 'progress': 'cmake'}
+[0.475699] (fire_confidence_node) JobProgress: {'identifier': 'fire_confidence_node', 'progress': 'build'}
+[0.476686] (fire_confidence_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nathaniel/fxb_ws/build/fire_confidence_node', '--', '-j8', '-l8'], 'cwd': '/home/nathaniel/fxb_ws/build/fire_confidence_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nathaniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathaniel', 'OLDPWD': '/home/nathaniel/fxb_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathaniel/fxb_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathaniel', 'NAME': 'kanmiezaah', 'WSL_INTEROP': '/run/WSL/21493_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.9.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Nathaniel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nathaniel/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/firebot_description:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nathaniel/fxb_ws/build/fire_confidence_node', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/nathaniel/fxb_ws/install/firebot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[0.499520] (-) TimerEvent: {}
+[0.599920] (-) TimerEvent: {}
+[0.700459] (-) TimerEvent: {}
+[0.801036] (-) TimerEvent: {}
+[0.901458] (-) TimerEvent: {}
+[1.001940] (-) TimerEvent: {}
+[1.102310] (-) TimerEvent: {}
+[1.202787] (-) TimerEvent: {}
+[1.303128] (-) TimerEvent: {}
+[1.403575] (-) TimerEvent: {}
+[1.504075] (-) TimerEvent: {}
+[1.604541] (-) TimerEvent: {}
+[1.704913] (-) TimerEvent: {}
+[1.805329] (-) TimerEvent: {}
+[1.905809] (-) TimerEvent: {}
+[2.006218] (-) TimerEvent: {}
+[2.106651] (-) TimerEvent: {}
+[2.197840] (fire_confidence_node) StdoutLine: {'line': b'Built target ament_cmake_python_copy_fire_confidence_node_setup\n'}
+[2.200102] (fire_confidence_node) StdoutLine: {'line': b'Built target ament_cmake_python_copy_fire_confidence_node\n'}
+[2.200901] (fire_confidence_node) StdoutLine: {'line': b'running egg_info\n'}
+[2.201209] (fire_confidence_node) StdoutLine: {'line': b'writing fire_confidence_node.egg-info/PKG-INFO\n'}
+[2.201497] (fire_confidence_node) StdoutLine: {'line': b'writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt\n'}
+[2.202181] (fire_confidence_node) StdoutLine: {'line': b'writing top-level names to fire_confidence_node.egg-info/top_level.txt\n'}
+[2.203013] (fire_confidence_node) StdoutLine: {'line': b"reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'\n"}
+[2.203267] (fire_confidence_node) StdoutLine: {'line': b"writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'\n"}
+[2.203460] (fire_confidence_node) StdoutLine: {'line': b'Built target ament_cmake_python_build_fire_confidence_node_egg\n'}
+[2.203624] (fire_confidence_node) CommandEnded: {'returncode': 0}
+[2.204816] (fire_confidence_node) JobProgress: {'identifier': 'fire_confidence_node', 'progress': 'install'}
+[2.206766] (-) TimerEvent: {}
+[2.218509] (fire_confidence_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nathaniel/fxb_ws/build/fire_confidence_node'], 'cwd': '/home/nathaniel/fxb_ws/build/fire_confidence_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nathaniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathaniel', 'OLDPWD': '/home/nathaniel/fxb_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathaniel/fxb_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathaniel', 'NAME': 'kanmiezaah', 'WSL_INTEROP': '/run/WSL/21493_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.9.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Nathaniel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nathaniel/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/firebot_description:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nathaniel/fxb_ws/build/fire_confidence_node', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/nathaniel/fxb_ws/install/firebot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[2.306905] (-) TimerEvent: {}
+[2.407423] (-) TimerEvent: {}
+[2.507819] (-) TimerEvent: {}
+[2.608323] (-) TimerEvent: {}
+[2.610835] (fire_confidence_node) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:70 (file):\n'}
+[2.612270] (fire_confidence_node) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[2.612646] (fire_confidence_node) StderrLine: {'line': b'  "/home/nathaniel/fxb_ws/src/fire_confidence_node/fire_confidence_publisher.py":\n'}
+[2.612914] (fire_confidence_node) StderrLine: {'line': b'  No such file or directory.\n'}
+[2.613145] (fire_confidence_node) StderrLine: {'line': b'\n'}
+[2.613492] (fire_confidence_node) StderrLine: {'line': b'\x1b[0m\n'}
+[2.613996] (fire_confidence_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.614258] (fire_confidence_node) StdoutLine: {'line': b'-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.sh\n'}
+[2.614528] (fire_confidence_node) StdoutLine: {'line': b'-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.dsv\n'}
+[2.615556] (fire_confidence_node) StdoutLine: {'line': b'-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info\n'}
+[2.616035] (fire_confidence_node) StdoutLine: {'line': b'-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[2.616281] (fire_confidence_node) StdoutLine: {'line': b'-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[2.616563] (fire_confidence_node) StdoutLine: {'line': b'-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[2.617868] (fire_confidence_node) StdoutLine: {'line': b'-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[2.618257] (fire_confidence_node) StdoutLine: {'line': b'-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node\n'}
+[2.618605] (fire_confidence_node) StdoutLine: {'line': b'-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py\n'}
+[2.618946] (fire_confidence_node) StdoutLine: {'line': b'-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py\n'}
+[2.619274] (fire_confidence_node) StdoutLine: {'line': b"Listing '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node'...\n"}
+[2.619582] (fire_confidence_node) StdoutLine: {'line': b"Compiling '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py'...\n"}
+[2.653718] (fire_confidence_node) CommandEnded: {'returncode': 1}
+[2.717732] (-) TimerEvent: {}
+[2.786690] (fire_confidence_node) JobEnded: {'identifier': 'fire_confidence_node', 'rc': 1}
+[2.790721] (yolo_inference) JobEnded: {'identifier': 'yolo_inference', 'rc': 'SIGINT'}
+[2.818201] (-) TimerEvent: {}
+[2.918736] (-) TimerEvent: {}
+[3.019564] (-) TimerEvent: {}
+[3.120387] (-) TimerEvent: {}
+[3.221260] (-) TimerEvent: {}
+[3.322176] (-) TimerEvent: {}
+[3.423088] (-) TimerEvent: {}
+[3.524005] (-) TimerEvent: {}
+[3.624932] (-) TimerEvent: {}
+[3.726053] (-) TimerEvent: {}
+[3.826714] (-) TimerEvent: {}
+[3.927404] (-) TimerEvent: {}
+[4.028164] (-) TimerEvent: {}
+[4.129050] (-) TimerEvent: {}
+[4.229736] (-) TimerEvent: {}
+[4.330558] (-) TimerEvent: {}
+[4.431142] (-) TimerEvent: {}
+[4.531740] (-) TimerEvent: {}
+[4.632396] (-) TimerEvent: {}
+[4.732993] (-) TimerEvent: {}
+[4.833684] (-) TimerEvent: {}
+[4.934382] (-) TimerEvent: {}
+[4.986372] (camera_node) JobEnded: {'identifier': 'camera_node', 'rc': 'SIGINT'}
+[5.021748] (motor_control_node) JobEnded: {'identifier': 'motor_control_node', 'rc': 'SIGINT'}
+[5.028612] (smoke_sensor_node) JobEnded: {'identifier': 'smoke_sensor_node', 'rc': 'SIGINT'}
+[5.034492] (-) TimerEvent: {}
+[5.121613] (suppression_node) JobEnded: {'identifier': 'suppression_node', 'rc': 'SIGINT'}
+[5.134555] (sensor_fusion_node) JobEnded: {'identifier': 'sensor_fusion_node', 'rc': 'SIGINT'}
+[5.135513] (-) TimerEvent: {}
+[5.161789] (state_machine_node) JobEnded: {'identifier': 'state_machine_node', 'rc': 'SIGINT'}
+[5.173412] (comm_node) JobSkipped: {'identifier': 'comm_node'}
+[5.173772] (diff_drive_odometry_node) JobSkipped: {'identifier': 'diff_drive_odometry_node'}
+[5.173909] (firebot_description) JobSkipped: {'identifier': 'firebot_description'}
+[5.173969] (lidar_node) JobSkipped: {'identifier': 'lidar_node'}
+[5.174012] (odometry_node) JobSkipped: {'identifier': 'odometry_node'}
+[5.174052] (bringup) JobSkipped: {'identifier': 'bringup'}
+[5.174094] (-) EventReactorShutdown: {}

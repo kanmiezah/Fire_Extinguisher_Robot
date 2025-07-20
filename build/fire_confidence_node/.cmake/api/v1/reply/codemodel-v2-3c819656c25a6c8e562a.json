@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e33259a295e57fbaf2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fire_confidence_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fire_confidence_node_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fire_confidence_node_egg-6b06a1a78bc3998dc759.json",
+					"name" : "ament_cmake_python_build_fire_confidence_node_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fire_confidence_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fire_confidence_node-0fadec9446e8e70c93af.json",
+					"name" : "ament_cmake_python_copy_fire_confidence_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fire_confidence_node_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fire_confidence_node_setup-9e2006e25af3715288d3.json",
+					"name" : "ament_cmake_python_copy_fire_confidence_node_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fire_confidence_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fire_confidence_node_uninstall-1403ef0e8f7c8ec03dda.json",
+					"name" : "fire_confidence_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9c2785dd1a369bf22de.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nathaniel/fxb_ws/build/fire_confidence_node",
+		"source" : "/home/nathaniel/fxb_ws/src/fire_confidence_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

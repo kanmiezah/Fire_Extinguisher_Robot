@@ -1,0 +1,42 @@
+[0.419s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[2.259s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.259s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.260s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.260s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.260s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.261s] -- Configuring done (0.7s)
+[2.262s] -- Generating done (0.0s)
+[2.262s] -- Build files have been written to: /home/nathaniel/fxb_ws/build/fire_confidence_node
+[2.263s] Built target ament_cmake_python_copy_fire_confidence_node_setup
+[2.263s] Built target ament_cmake_python_copy_fire_confidence_node
+[2.263s] running egg_info
+[2.263s] writing fire_confidence_node.egg-info/PKG-INFO
+[2.264s] writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+[2.264s] writing top-level names to fire_confidence_node.egg-info/top_level.txt
+[2.264s] reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[2.264s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[2.264s] Built target ament_cmake_python_build_fire_confidence_node_egg
+[2.266s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '0': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[2.280s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/fire_confidence_node
+[2.650s] -- Install configuration: ""
+[2.650s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.sh
+[2.650s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.dsv
+[2.651s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info
+[2.651s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/top_level.txt
+[2.651s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/PKG-INFO
+[2.651s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/SOURCES.txt
+[2.652s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/dependency_links.txt
+[2.652s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node
+[2.652s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py
+[2.653s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py
+[2.653s] Listing '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node'...
+[2.653s] Compiling '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py'...
+[2.653s] [31mCMake Error at cmake_install.cmake:70 (file):
+[2.654s]   file INSTALL cannot find
+[2.654s]   "/home/nathaniel/fxb_ws/src/fire_confidence_node/fire_confidence_node.py":
+[2.654s]   No such file or directory.
+[2.654s] 
+[2.655s] [0m
+[2.687s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '1': /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/fire_confidence_node

@@ -1,0 +1,31 @@
+[0.017s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[0.126s] Built target ament_cmake_python_copy_fire_confidence_node
+[0.126s] Built target ament_cmake_python_copy_fire_confidence_node_setup
+[0.534s] running egg_info
+[0.572s] writing fire_confidence_node.egg-info/PKG-INFO
+[0.572s] writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+[0.573s] writing top-level names to fire_confidence_node.egg-info/top_level.txt
+[0.657s] reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[0.658s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[0.709s] Built target ament_cmake_python_build_fire_confidence_node_egg
+[0.724s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '0': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[0.738s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/fire_confidence_node
+[0.752s] -- Install configuration: ""
+[0.752s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.sh
+[0.752s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.dsv
+[0.752s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info
+[0.752s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/top_level.txt
+[0.753s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/PKG-INFO
+[0.753s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/SOURCES.txt
+[0.753s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/dependency_links.txt
+[0.753s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node
+[0.753s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py
+[0.753s] -- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py
+[0.802s] Listing '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node'...
+[0.810s] [31mCMake Error at cmake_install.cmake:70 (file):
+[0.810s]   file INSTALL cannot find
+[0.810s]   "/home/nathaniel/fxb_ws/src/fire_confidence_node/fire_confidence_publisher.py":
+[0.811s]   No such file or directory.
+[0.811s] 
+[0.811s] [0m
+[0.813s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '1': /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/fire_confidence_node

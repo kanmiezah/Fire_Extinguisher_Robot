@@ -1,0 +1,32 @@
+[3.943s] Invoking command in '/home/nathaniel/fxb_ws/src/comm_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/comm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/comm_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/comm_node build --build-base /home/nathaniel/fxb_ws/build/comm_node/build install --record /home/nathaniel/fxb_ws/build/comm_node/install.log --single-version-externally-managed install_data
+[5.415s] running egg_info
+[5.415s] creating ../../build/comm_node/comm_node.egg-info
+[5.523s] writing ../../build/comm_node/comm_node.egg-info/PKG-INFO
+[5.524s] writing dependency_links to ../../build/comm_node/comm_node.egg-info/dependency_links.txt
+[5.525s] writing requirements to ../../build/comm_node/comm_node.egg-info/requires.txt
+[5.528s] writing top-level names to ../../build/comm_node/comm_node.egg-info/top_level.txt
+[5.528s] writing manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'
+[5.718s] reading manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'
+[5.721s] writing manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'
+[5.721s] running build
+[5.722s] running build_py
+[5.726s] creating /home/nathaniel/fxb_ws/build/comm_node/build
+[5.728s] creating /home/nathaniel/fxb_ws/build/comm_node/build/lib
+[5.729s] creating /home/nathaniel/fxb_ws/build/comm_node/build/lib/comm_node
+[5.732s] copying comm_node/__init__.py -> /home/nathaniel/fxb_ws/build/comm_node/build/lib/comm_node
+[5.733s] running install
+[5.754s] running install_lib
+[5.850s] creating /home/nathaniel/fxb_ws/install/comm_node/lib/python3.12/site-packages/comm_node
+[5.856s] copying /home/nathaniel/fxb_ws/build/comm_node/build/lib/comm_node/__init__.py -> /home/nathaniel/fxb_ws/install/comm_node/lib/python3.12/site-packages/comm_node
+[5.865s] byte-compiling /home/nathaniel/fxb_ws/install/comm_node/lib/python3.12/site-packages/comm_node/__init__.py to __init__.cpython-312.pyc
+[5.865s] running install_data
+[5.865s] creating /home/nathaniel/fxb_ws/install/comm_node/share/ament_index
+[5.865s] creating /home/nathaniel/fxb_ws/install/comm_node/share/ament_index/resource_index
+[5.872s] creating /home/nathaniel/fxb_ws/install/comm_node/share/ament_index/resource_index/packages
+[5.872s] copying resource/comm_node -> /home/nathaniel/fxb_ws/install/comm_node/share/ament_index/resource_index/packages
+[5.873s] copying package.xml -> /home/nathaniel/fxb_ws/install/comm_node/share/comm_node
+[5.873s] running install_egg_info
+[5.966s] Copying ../../build/comm_node/comm_node.egg-info to /home/nathaniel/fxb_ws/install/comm_node/lib/python3.12/site-packages/comm_node-0.0.0-py3.12.egg-info
+[5.972s] running install_scripts
+[6.551s] writing list of installed files to '/home/nathaniel/fxb_ws/build/comm_node/install.log'
+[7.711s] Invoked command in '/home/nathaniel/fxb_ws/src/comm_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/comm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/comm_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/comm_node build --build-base /home/nathaniel/fxb_ws/build/comm_node/build install --record /home/nathaniel/fxb_ws/build/comm_node/install.log --single-version-externally-managed install_data

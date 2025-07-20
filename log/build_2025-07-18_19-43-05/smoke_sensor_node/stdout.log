@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/smoke_sensor_node/smoke_sensor_node.egg-info
+writing ../../build/smoke_sensor_node/smoke_sensor_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/smoke_sensor_node/smoke_sensor_node.egg-info/dependency_links.txt
+writing entry points to ../../build/smoke_sensor_node/smoke_sensor_node.egg-info/entry_points.txt
+writing requirements to ../../build/smoke_sensor_node/smoke_sensor_node.egg-info/requires.txt
+writing top-level names to ../../build/smoke_sensor_node/smoke_sensor_node.egg-info/top_level.txt
+writing manifest file '../../build/smoke_sensor_node/smoke_sensor_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/smoke_sensor_node/smoke_sensor_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/smoke_sensor_node/smoke_sensor_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nathaniel/fxb_ws/build/smoke_sensor_node/build
+creating /home/nathaniel/fxb_ws/build/smoke_sensor_node/build/lib
+creating /home/nathaniel/fxb_ws/build/smoke_sensor_node/build/lib/smoke_sensor_node
+copying smoke_sensor_node/smoke_sensor_node.py -> /home/nathaniel/fxb_ws/build/smoke_sensor_node/build/lib/smoke_sensor_node
+copying smoke_sensor_node/__init__.py -> /home/nathaniel/fxb_ws/build/smoke_sensor_node/build/lib/smoke_sensor_node
+running install
+running install_lib
+creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke_sensor_node
+copying /home/nathaniel/fxb_ws/build/smoke_sensor_node/build/lib/smoke_sensor_node/smoke_sensor_node.py -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke_sensor_node
+copying /home/nathaniel/fxb_ws/build/smoke_sensor_node/build/lib/smoke_sensor_node/__init__.py -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke_sensor_node
+byte-compiling /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke_sensor_node/smoke_sensor_node.py to smoke_sensor_node.cpython-312.pyc
+byte-compiling /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke_sensor_node/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/ament_index
+creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/ament_index/resource_index
+creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/ament_index/resource_index/packages
+copying resource/smoke_sensor_node -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node
+creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node/launch
+copying launch/smoke_sensor_node.launch.py -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node/launch
+running install_egg_info
+Copying ../../build/smoke_sensor_node/smoke_sensor_node.egg-info to /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke_sensor_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing smoke_sensor_node script to /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/smoke_sensor_node
+writing list of installed files to '/home/nathaniel/fxb_ws/build/smoke_sensor_node/install.log'

@@ -1,0 +1,39 @@
+[1.853s] Invoking command in '/home/nathaniel/fxb_ws/src/motor_control_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/nathaniel/fxb_ws/build/motor_control_node/build install --record /home/nathaniel/fxb_ws/build/motor_control_node/install.log --single-version-externally-managed install_data
+[2.395s] running egg_info
+[2.396s] creating ../../build/motor_control_node/motor_control_node.egg-info
+[2.432s] writing ../../build/motor_control_node/motor_control_node.egg-info/PKG-INFO
+[2.432s] writing dependency_links to ../../build/motor_control_node/motor_control_node.egg-info/dependency_links.txt
+[2.433s] writing entry points to ../../build/motor_control_node/motor_control_node.egg-info/entry_points.txt
+[2.433s] writing requirements to ../../build/motor_control_node/motor_control_node.egg-info/requires.txt
+[2.434s] writing top-level names to ../../build/motor_control_node/motor_control_node.egg-info/top_level.txt
+[2.434s] writing manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[2.548s] reading manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[2.549s] writing manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[2.550s] running build
+[2.550s] running build_py
+[2.550s] creating /home/nathaniel/fxb_ws/build/motor_control_node/build
+[2.551s] creating /home/nathaniel/fxb_ws/build/motor_control_node/build/lib
+[2.552s] creating /home/nathaniel/fxb_ws/build/motor_control_node/build/lib/motor_control_node
+[2.553s] copying motor_control_node/__init__.py -> /home/nathaniel/fxb_ws/build/motor_control_node/build/lib/motor_control_node
+[2.553s] copying motor_control_node/motor_control_node.py -> /home/nathaniel/fxb_ws/build/motor_control_node/build/lib/motor_control_node
+[2.554s] running install
+[2.565s] running install_lib
+[2.610s] creating /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor_control_node
+[2.610s] copying /home/nathaniel/fxb_ws/build/motor_control_node/build/lib/motor_control_node/__init__.py -> /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor_control_node
+[2.611s] copying /home/nathaniel/fxb_ws/build/motor_control_node/build/lib/motor_control_node/motor_control_node.py -> /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor_control_node
+[2.612s] byte-compiling /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor_control_node/__init__.py to __init__.cpython-312.pyc
+[2.613s] byte-compiling /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor_control_node/motor_control_node.py to motor_control_node.cpython-312.pyc
+[2.615s] running install_data
+[2.615s] creating /home/nathaniel/fxb_ws/install/motor_control_node/share/ament_index
+[2.616s] creating /home/nathaniel/fxb_ws/install/motor_control_node/share/ament_index/resource_index
+[2.618s] creating /home/nathaniel/fxb_ws/install/motor_control_node/share/ament_index/resource_index/packages
+[2.619s] copying resource/motor_control_node -> /home/nathaniel/fxb_ws/install/motor_control_node/share/ament_index/resource_index/packages
+[2.619s] copying package.xml -> /home/nathaniel/fxb_ws/install/motor_control_node/share/motor_control_node
+[2.620s] creating /home/nathaniel/fxb_ws/install/motor_control_node/share/motor_control_node/launch
+[2.621s] copying launch/motor_control.launch.py -> /home/nathaniel/fxb_ws/install/motor_control_node/share/motor_control_node/launch
+[2.622s] running install_egg_info
+[2.670s] Copying ../../build/motor_control_node/motor_control_node.egg-info to /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor_control_node-0.0.0-py3.12.egg-info
+[2.672s] running install_scripts
+[2.932s] Installing motor_control_node script to /home/nathaniel/fxb_ws/install/motor_control_node/lib/motor_control
+[2.933s] writing list of installed files to '/home/nathaniel/fxb_ws/build/motor_control_node/install.log'
+[2.989s] Invoked command in '/home/nathaniel/fxb_ws/src/motor_control_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/nathaniel/fxb_ws/build/motor_control_node/build install --record /home/nathaniel/fxb_ws/build/motor_control_node/install.log --single-version-externally-managed install_data

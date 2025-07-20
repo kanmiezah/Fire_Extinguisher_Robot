@@ -1,0 +1,39 @@
+[6.154s] Invoking command in '/home/nathaniel/fxb_ws/src/suppression_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/suppression_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/suppression_node build --build-base /home/nathaniel/fxb_ws/build/suppression_node/build install --record /home/nathaniel/fxb_ws/build/suppression_node/install.log --single-version-externally-managed install_data
+[7.156s] running egg_info
+[7.157s] creating ../../build/suppression_node/suppression_node.egg-info
+[7.239s] writing ../../build/suppression_node/suppression_node.egg-info/PKG-INFO
+[7.241s] writing dependency_links to ../../build/suppression_node/suppression_node.egg-info/dependency_links.txt
+[7.241s] writing entry points to ../../build/suppression_node/suppression_node.egg-info/entry_points.txt
+[7.242s] writing requirements to ../../build/suppression_node/suppression_node.egg-info/requires.txt
+[7.243s] writing top-level names to ../../build/suppression_node/suppression_node.egg-info/top_level.txt
+[7.243s] writing manifest file '../../build/suppression_node/suppression_node.egg-info/SOURCES.txt'
+[7.401s] reading manifest file '../../build/suppression_node/suppression_node.egg-info/SOURCES.txt'
+[7.408s] writing manifest file '../../build/suppression_node/suppression_node.egg-info/SOURCES.txt'
+[7.408s] running build
+[7.409s] running build_py
+[7.409s] creating /home/nathaniel/fxb_ws/build/suppression_node/build
+[7.409s] creating /home/nathaniel/fxb_ws/build/suppression_node/build/lib
+[7.409s] creating /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node
+[7.413s] copying suppression_node/suppression_node.py -> /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node
+[7.414s] copying suppression_node/__init__.py -> /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node
+[7.414s] running install
+[7.438s] running install_lib
+[7.530s] creating /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node
+[7.535s] copying /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node/suppression_node.py -> /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node
+[7.535s] copying /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node/__init__.py -> /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node
+[7.535s] byte-compiling /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node/suppression_node.py to suppression_node.cpython-312.pyc
+[7.540s] byte-compiling /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node/__init__.py to __init__.cpython-312.pyc
+[7.540s] running install_data
+[7.549s] creating /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index
+[7.550s] creating /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index
+[7.550s] creating /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index/packages
+[7.550s] copying resource/suppression_node -> /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index/packages
+[7.550s] copying package.xml -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node
+[7.551s] creating /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node/launch
+[7.551s] copying launch/suppression_node.launch.py -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node/launch
+[7.555s] running install_egg_info
+[7.661s] Copying ../../build/suppression_node/suppression_node.egg-info to /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node-0.0.0-py3.12.egg-info
+[7.671s] running install_scripts
+[8.518s] Installing suppression_node script to /home/nathaniel/fxb_ws/install/suppression_node/lib/suppression_node
+[8.519s] writing list of installed files to '/home/nathaniel/fxb_ws/build/suppression_node/install.log'
+[8.631s] Invoked command in '/home/nathaniel/fxb_ws/src/suppression_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/suppression_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/suppression_node build --build-base /home/nathaniel/fxb_ws/build/suppression_node/build install --record /home/nathaniel/fxb_ws/build/suppression_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/odometry_node/odometry_node.egg-info
+writing ../../build/odometry_node/odometry_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/odometry_node/odometry_node.egg-info/dependency_links.txt
+writing entry points to ../../build/odometry_node/odometry_node.egg-info/entry_points.txt
+writing requirements to ../../build/odometry_node/odometry_node.egg-info/requires.txt
+writing top-level names to ../../build/odometry_node/odometry_node.egg-info/top_level.txt
+writing manifest file '../../build/odometry_node/odometry_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/odometry_node/odometry_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/odometry_node/odometry_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nathaniel/fxb_ws/build/odometry_node/build
+creating /home/nathaniel/fxb_ws/build/odometry_node/build/lib
+creating /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node
+copying odometry_node/odometry_publisher.py -> /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node
+copying odometry_node/__init__.py -> /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node
+running install
+running install_lib
+creating /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node
+copying /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node/odometry_publisher.py -> /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node
+copying /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node/__init__.py -> /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node
+byte-compiling /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node/odometry_publisher.py to odometry_publisher.cpython-312.pyc
+byte-compiling /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/nathaniel/fxb_ws/install/odometry_node/share
+creating /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index
+creating /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index/resource_index
+creating /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index/resource_index/packages
+copying resource/odometry_node -> /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index/resource_index/packages
+creating /home/nathaniel/fxb_ws/install/odometry_node/share/odometry_node
+copying package.xml -> /home/nathaniel/fxb_ws/install/odometry_node/share/odometry_node
+running install_egg_info
+Copying ../../build/odometry_node/odometry_node.egg-info to /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node-0.1.0-py3.12.egg-info
+running install_scripts
+Installing odometry_publisher script to /home/nathaniel/fxb_ws/install/odometry_node/lib/odometry_node
+writing list of installed files to '/home/nathaniel/fxb_ws/build/odometry_node/install.log'

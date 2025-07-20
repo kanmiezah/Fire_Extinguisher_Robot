@@ -1,0 +1,2 @@
+[console_scripts]
+diff_drive_odometry_node = diff_drive_odometry_node.diff_drive_odometry_node:main

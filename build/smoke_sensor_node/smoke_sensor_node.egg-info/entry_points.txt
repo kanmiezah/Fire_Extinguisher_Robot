@@ -1,0 +1,2 @@
+[console_scripts]
+smoke_sensor_node = smoke_sensor_node.smoke_sensor_node:main

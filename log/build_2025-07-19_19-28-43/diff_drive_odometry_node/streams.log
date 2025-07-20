@@ -1,0 +1,39 @@
+[3.197s] Invoking command in '/home/nathaniel/fxb_ws/src/diff_drive_odometry_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_drive_odometry_node build --build-base /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build install --record /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/install.log --single-version-externally-managed install_data
+[4.260s] running egg_info
+[4.261s] creating ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info
+[4.343s] writing ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/PKG-INFO
+[4.344s] writing dependency_links to ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/dependency_links.txt
+[4.345s] writing entry points to ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/entry_points.txt
+[4.346s] writing requirements to ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/requires.txt
+[4.347s] writing top-level names to ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/top_level.txt
+[4.347s] writing manifest file '../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/SOURCES.txt'
+[4.591s] reading manifest file '../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/SOURCES.txt'
+[4.593s] writing manifest file '../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/SOURCES.txt'
+[4.593s] running build
+[4.594s] running build_py
+[4.594s] creating /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build
+[4.595s] creating /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build/lib
+[4.597s] creating /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build/lib/diff_drive_odometry_node
+[4.598s] copying diff_drive_odometry_node/diff_drive_odometry_node.py -> /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build/lib/diff_drive_odometry_node
+[4.599s] copying diff_drive_odometry_node/__init__.py -> /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build/lib/diff_drive_odometry_node
+[4.600s] running install
+[4.620s] running install_lib
+[4.704s] creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff_drive_odometry_node
+[4.705s] copying /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build/lib/diff_drive_odometry_node/diff_drive_odometry_node.py -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff_drive_odometry_node
+[4.705s] copying /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build/lib/diff_drive_odometry_node/__init__.py -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff_drive_odometry_node
+[4.706s] byte-compiling /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff_drive_odometry_node/diff_drive_odometry_node.py to diff_drive_odometry_node.cpython-312.pyc
+[4.715s] byte-compiling /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff_drive_odometry_node/__init__.py to __init__.cpython-312.pyc
+[4.715s] running install_data
+[4.716s] creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/ament_index
+[4.717s] creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/ament_index/resource_index
+[4.717s] creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/ament_index/resource_index/packages
+[4.719s] copying resource/diff_drive_odometry_node -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/ament_index/resource_index/packages
+[4.719s] copying package.xml -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/diff_drive_odometry_node
+[4.721s] creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/diff_drive_odometry_node/launch
+[4.722s] copying launch/diff_drive_odometry.launch.py -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/diff_drive_odometry_node/launch
+[4.723s] running install_egg_info
+[4.810s] Copying ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info to /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff_drive_odometry_node-0.0.1-py3.12.egg-info
+[4.816s] running install_scripts
+[5.377s] Installing diff_drive_odometry_node script to /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/diff_drive_odometry_node
+[5.379s] writing list of installed files to '/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/install.log'
+[5.480s] Invoked command in '/home/nathaniel/fxb_ws/src/diff_drive_odometry_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_drive_odometry_node build --build-base /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build install --record /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/install.log --single-version-externally-managed install_data

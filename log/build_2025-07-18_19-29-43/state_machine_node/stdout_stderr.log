@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/state_machine_node/state_machine_node.egg-info
+writing ../../build/state_machine_node/state_machine_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/state_machine_node/state_machine_node.egg-info/dependency_links.txt
+writing entry points to ../../build/state_machine_node/state_machine_node.egg-info/entry_points.txt
+writing requirements to ../../build/state_machine_node/state_machine_node.egg-info/requires.txt
+writing top-level names to ../../build/state_machine_node/state_machine_node.egg-info/top_level.txt
+writing manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nathaniel/fxb_ws/build/state_machine_node/build
+creating /home/nathaniel/fxb_ws/build/state_machine_node/build/lib
+creating /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node
+copying state_machine_node/__init__.py -> /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node
+copying state_machine_node/state_machine_node.py -> /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node
+running install
+running install_lib
+creating /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node
+copying /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node/__init__.py -> /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node
+copying /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node/state_machine_node.py -> /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node
+byte-compiling /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node/state_machine_node.py to state_machine_node.cpython-312.pyc
+running install_data
+creating /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index
+creating /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index
+creating /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index/packages
+copying resource/state_machine_node -> /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node
+creating /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node/launch
+copying launch/state_machine.launch.py -> /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node/launch
+running install_egg_info
+Copying ../../build/state_machine_node/state_machine_node.egg-info to /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node-0.0.1-py3.12.egg-info
+running install_scripts
+Installing state_machine_node script to /home/nathaniel/fxb_ws/install/state_machine_node/lib/state_machine_node
+writing list of installed files to '/home/nathaniel/fxb_ws/build/state_machine_node/install.log'

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/suppression_node/suppression_node.egg-info
+writing ../../build/suppression_node/suppression_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/suppression_node/suppression_node.egg-info/dependency_links.txt
+writing entry points to ../../build/suppression_node/suppression_node.egg-info/entry_points.txt
+writing requirements to ../../build/suppression_node/suppression_node.egg-info/requires.txt
+writing top-level names to ../../build/suppression_node/suppression_node.egg-info/top_level.txt
+writing manifest file '../../build/suppression_node/suppression_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/suppression_node/suppression_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/suppression_node/suppression_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nathaniel/fxb_ws/build/suppression_node/build
+creating /home/nathaniel/fxb_ws/build/suppression_node/build/lib
+creating /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node
+copying suppression_node/suppression_node.py -> /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node
+copying suppression_node/__init__.py -> /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node
+running install
+running install_lib
+creating /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node
+copying /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node/suppression_node.py -> /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node
+copying /home/nathaniel/fxb_ws/build/suppression_node/build/lib/suppression_node/__init__.py -> /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node
+byte-compiling /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node/suppression_node.py to suppression_node.cpython-312.pyc
+byte-compiling /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index
+creating /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index
+creating /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index/packages
+copying resource/suppression_node -> /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node
+creating /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node/launch
+copying launch/suppression_node.launch.py -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node/launch
+running install_egg_info
+Copying ../../build/suppression_node/suppression_node.egg-info to /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing suppression_node script to /home/nathaniel/fxb_ws/install/suppression_node/lib/suppression_node
+writing list of installed files to '/home/nathaniel/fxb_ws/build/suppression_node/install.log'

@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+fire_confidence_node/__init__.py
+fire_confidence_node/fire_confidence_node.py
+fire_confidence_node.egg-info/PKG-INFO
+fire_confidence_node.egg-info/SOURCES.txt
+fire_confidence_node.egg-info/dependency_links.txt
+fire_confidence_node.egg-info/top_level.txt

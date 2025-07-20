@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.001779] (-) JobUnselected: {'identifier': 'camera_node'}
+[0.002153] (-) JobUnselected: {'identifier': 'comm_node'}
+[0.002247] (-) JobUnselected: {'identifier': 'fire_confidence_node'}
+[0.002279] (-) JobUnselected: {'identifier': 'lidar_node'}
+[0.002303] (-) JobUnselected: {'identifier': 'motor_control_node'}
+[0.002324] (-) JobUnselected: {'identifier': 'navigation'}
+[0.002344] (-) JobUnselected: {'identifier': 'sensor_fusion_node'}
+[0.002363] (-) JobUnselected: {'identifier': 'sim_robot'}
+[0.002384] (-) JobUnselected: {'identifier': 'smoke_sensor_node'}
+[0.002417] (-) JobUnselected: {'identifier': 'state_machine_node'}
+[0.002449] (-) JobUnselected: {'identifier': 'suppression_node'}
+[0.002471] (-) JobUnselected: {'identifier': 'yolo_inference'}
+[0.002497] (bringup) JobQueued: {'identifier': 'bringup', 'dependencies': OrderedDict({'camera_node': '/home/nathaniel/fxb_ws/install/camera_node', 'fire_confidence_node': '/home/nathaniel/fxb_ws/install/fire_confidence_node', 'motor_control_node': '/home/nathaniel/fxb_ws/install/motor_control_node', 'sensor_fusion_node': '/home/nathaniel/fxb_ws/install/sensor_fusion_node', 'smoke_sensor_node': '/home/nathaniel/fxb_ws/install/smoke_sensor_node', 'state_machine_node': '/home/nathaniel/fxb_ws/install/state_machine_node', 'suppression_node': '/home/nathaniel/fxb_ws/install/suppression_node', 'yolo_inference': '/home/nathaniel/fxb_ws/install/yolo_inference'})}
+[0.002569] (bringup) JobStarted: {'identifier': 'bringup'}
+[0.033892] (bringup) JobEnded: {'identifier': 'bringup', 'rc': 1}
+[0.036121] (-) EventReactorShutdown: {}

@@ -1,0 +1,42 @@
+[6.295s] Invoking command in '/home/nathaniel/fxb_ws/src/yolo_inference': PYTHONPATH=/home/nathaniel/fxb_ws/build/yolo_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_inference build --build-base /home/nathaniel/fxb_ws/build/yolo_inference/build install --record /home/nathaniel/fxb_ws/build/yolo_inference/install.log --single-version-externally-managed install_data
+[7.492s] running egg_info
+[7.492s] creating ../../build/yolo_inference/yolo_inference.egg-info
+[7.605s] writing ../../build/yolo_inference/yolo_inference.egg-info/PKG-INFO
+[7.606s] writing dependency_links to ../../build/yolo_inference/yolo_inference.egg-info/dependency_links.txt
+[7.606s] writing entry points to ../../build/yolo_inference/yolo_inference.egg-info/entry_points.txt
+[7.606s] writing requirements to ../../build/yolo_inference/yolo_inference.egg-info/requires.txt
+[7.607s] writing top-level names to ../../build/yolo_inference/yolo_inference.egg-info/top_level.txt
+[7.617s] writing manifest file '../../build/yolo_inference/yolo_inference.egg-info/SOURCES.txt'
+[7.884s] reading manifest file '../../build/yolo_inference/yolo_inference.egg-info/SOURCES.txt'
+[7.889s] writing manifest file '../../build/yolo_inference/yolo_inference.egg-info/SOURCES.txt'
+[7.890s] running build
+[7.890s] running build_py
+[7.890s] creating /home/nathaniel/fxb_ws/build/yolo_inference/build
+[7.892s] creating /home/nathaniel/fxb_ws/build/yolo_inference/build/lib
+[7.912s] creating /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference
+[7.916s] copying yolo_inference/yolo_node.py -> /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference
+[7.920s] copying yolo_inference/__init__.py -> /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference
+[7.920s] copying yolo_inference/yolo_node_entry.py -> /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference
+[7.935s] running install
+[7.994s] running install_lib
+[8.116s] creating /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference
+[8.117s] copying /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference/yolo_node.py -> /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference
+[8.124s] copying /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference/__init__.py -> /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference
+[8.126s] copying /home/nathaniel/fxb_ws/build/yolo_inference/build/lib/yolo_inference/yolo_node_entry.py -> /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference
+[8.127s] byte-compiling /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference/yolo_node.py to yolo_node.cpython-312.pyc
+[8.138s] byte-compiling /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference/__init__.py to __init__.cpython-312.pyc
+[8.141s] byte-compiling /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference/yolo_node_entry.py to yolo_node_entry.cpython-312.pyc
+[8.141s] running install_data
+[8.141s] creating /home/nathaniel/fxb_ws/install/yolo_inference/share/ament_index
+[8.142s] creating /home/nathaniel/fxb_ws/install/yolo_inference/share/ament_index/resource_index
+[8.142s] creating /home/nathaniel/fxb_ws/install/yolo_inference/share/ament_index/resource_index/packages
+[8.143s] copying resource/yolo_inference -> /home/nathaniel/fxb_ws/install/yolo_inference/share/ament_index/resource_index/packages
+[8.144s] copying package.xml -> /home/nathaniel/fxb_ws/install/yolo_inference/share/yolo_inference
+[8.144s] creating /home/nathaniel/fxb_ws/install/yolo_inference/share/yolo_inference/launch
+[8.155s] copying launch/yolo_node.launch.py -> /home/nathaniel/fxb_ws/install/yolo_inference/share/yolo_inference/launch
+[8.158s] running install_egg_info
+[8.311s] Copying ../../build/yolo_inference/yolo_inference.egg-info to /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo_inference-0.0.0-py3.12.egg-info
+[8.313s] running install_scripts
+[8.818s] Installing yolo_node script to /home/nathaniel/fxb_ws/install/yolo_inference/lib/yolo_inference
+[8.822s] writing list of installed files to '/home/nathaniel/fxb_ws/build/yolo_inference/install.log'
+[8.898s] Invoked command in '/home/nathaniel/fxb_ws/src/yolo_inference' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/yolo_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_inference build --build-base /home/nathaniel/fxb_ws/build/yolo_inference/build install --record /home/nathaniel/fxb_ws/build/yolo_inference/install.log --single-version-externally-managed install_data

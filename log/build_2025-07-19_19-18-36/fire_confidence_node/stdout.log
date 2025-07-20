@@ -1,0 +1,31 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nathaniel/fxb_ws/build/fire_confidence_node
+Built target ament_cmake_python_copy_fire_confidence_node_setup
+Built target ament_cmake_python_copy_fire_confidence_node
+running egg_info
+writing fire_confidence_node.egg-info/PKG-INFO
+writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+writing top-level names to fire_confidence_node.egg-info/top_level.txt
+reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_fire_confidence_node_egg
+-- Install configuration: ""
+-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.sh
+-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.dsv
+-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info
+-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node
+-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py
+-- Up-to-date: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py
+Listing '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node'...

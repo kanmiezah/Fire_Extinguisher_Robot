@@ -1,0 +1,13 @@
+
+---
+
+### ✅ `requirements.txt`
+
+Even though ROS 2 handles most Python dependencies via `package.xml`, you can include this for development and tools:
+
+```txt
+xacro
+ament_index_python
+flake8
+pytest
+colcon-common-extensions

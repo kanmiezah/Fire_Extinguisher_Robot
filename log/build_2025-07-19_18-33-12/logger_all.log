@@ -1,0 +1,787 @@
+[0.217s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'firebot_description']
+[0.217s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['firebot_description'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78410a092ff0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78410a090b60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78410a090b60>>, mixin_verb=('build',))
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.286s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nathaniel/fxb_ws'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/runs/detect/predict) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/__pycache__) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/hub/__pycache__) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v3) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v5) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/cls) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/models/v8/seg) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/nn/__pycache__) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/configs/__pycache__) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/__pycache__) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/dataloaders/__pycache__) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/datasets) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/data/scripts) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/engine/__pycache__) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/__pycache__) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/utils/callbacks/__pycache__) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(FYP-AI-Model/ultralytics/yolo/v8/detect/__pycache__) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws) by extension 'python_setup_py'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extensions ['cmake', 'python']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'cmake'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(fxb_ws/FYP-AI-Model) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_python' and name 'bringup'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_node' with type 'ros.ament_python' and name 'camera_node'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_node) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/comm_node' with type 'ros.ament_python' and name 'comm_node'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive_odometry_node) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_drive_odometry_node' with type 'ros.ament_python' and name 'diff_drive_odometry_node'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_confidence_node) by extension 'ros'
+[0.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fire_confidence_node' with type 'ros.catkin' and name 'fire_confidence_node'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/firebot_description) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/firebot_description' with type 'ros.ament_cmake' and name 'firebot_description'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_node' with type 'ros.ament_python' and name 'lidar_node'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control_node' with type 'ros.ament_python' and name 'motor_control_node'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion_node) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_fusion_node' with type 'ros.ament_python' and name 'sensor_fusion_node'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/smoke_sensor_node) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smoke_sensor_node' with type 'ros.ament_python' and name 'smoke_sensor_node'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_machine_node) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/state_machine_node' with type 'ros.ament_python' and name 'state_machine_node'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/suppression_node) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suppression_node' with type 'ros.ament_python' and name 'suppression_node'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_inference) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_inference' with type 'ros.ament_python' and name 'yolo_inference'
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_node' in 'src/camera_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'comm_node' in 'src/comm_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diff_drive_odometry_node' in 'src/diff_drive_odometry_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fire_confidence_node' in 'src/fire_confidence_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lidar_node' in 'src/lidar_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motor_control_node' in 'src/motor_control_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_fusion_node' in 'src/sensor_fusion_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'smoke_sensor_node' in 'src/smoke_sensor_node'
+[0.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'state_machine_node' in 'src/state_machine_node'
+[0.423s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'suppression_node' in 'src/suppression_node'
+[0.423s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_inference' in 'src/yolo_inference'
+[0.423s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bringup' in 'src/bringup'
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/nathaniel/fxb_ws/install
+[0.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nathaniel/fxb_ws/src/install
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/jazzy
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'firebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'firebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nathaniel/fxb_ws/build/firebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nathaniel/fxb_ws/install/firebot_description', 'merge_install': False, 'path': '/home/nathaniel/fxb_ws/src/firebot_description', 'symlink_install': False, 'test_result_base': None}
+[0.498s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nathaniel/fxb_ws/src/firebot_description' with build type 'ament_cmake'
+[0.500s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nathaniel/fxb_ws/src/firebot_description'
+[0.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nathaniel/fxb_ws/build/firebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/src/install/motor_control_node:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/firebot_description -- -j8 -l8
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nathaniel/fxb_ws/build/firebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/src/install/motor_control_node:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/firebot_description -- -j8 -l8
+[0.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nathaniel/fxb_ws/build/firebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/src/install/motor_control_node:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/firebot_description
+[0.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(firebot_description)
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nathaniel/fxb_ws/build/firebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/src/install/motor_control_node:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/firebot_description
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description' for CMake module files
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description' for CMake config files
+[0.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('firebot_description', 'cmake_prefix_path')
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/hook/cmake_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/hook/cmake_prefix_path.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/lib/pkgconfig/firebot_description.pc'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/lib/python3.12/site-packages'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.bash'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.zsh'
+[0.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nathaniel/fxb_ws/install/firebot_description/share/colcon-core/packages/firebot_description)
+[0.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(firebot_description)
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description' for CMake module files
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description' for CMake config files
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('firebot_description', 'cmake_prefix_path')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/hook/cmake_prefix_path.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/hook/cmake_prefix_path.dsv'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/hook/cmake_prefix_path.sh'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/bin'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/lib/pkgconfig/firebot_description.pc'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/lib/python3.12/site-packages'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/nathaniel/fxb_ws/install/firebot_description/bin'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.bash'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.zsh'
+[0.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nathaniel/fxb_ws/install/firebot_description/share/colcon-core/packages/firebot_description)
+[0.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.657s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.701s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.702s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.704s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[0.704s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nathaniel/fxb_ws/install/local_setup.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nathaniel/fxb_ws/install/_local_setup_util_ps1.py'
+[0.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nathaniel/fxb_ws/install/setup.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nathaniel/fxb_ws/install/local_setup.sh'
+[0.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nathaniel/fxb_ws/install/_local_setup_util_sh.py'
+[0.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nathaniel/fxb_ws/install/setup.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nathaniel/fxb_ws/install/local_setup.bash'
+[0.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nathaniel/fxb_ws/install/setup.bash'
+[0.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nathaniel/fxb_ws/install/local_setup.zsh'
+[0.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nathaniel/fxb_ws/install/setup.zsh'

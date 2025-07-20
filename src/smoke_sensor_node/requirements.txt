@@ -1,0 +1,4 @@
+rclpy
+std_msgs
+adafruit-circuitpython-mcp3xxx
+adafruit-blinka

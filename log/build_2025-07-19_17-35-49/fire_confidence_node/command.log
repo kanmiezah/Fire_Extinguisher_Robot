@@ -1,0 +1,2 @@
+Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake /home/nathaniel/fxb_ws/src/fire_confidence_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nathaniel/fxb_ws/install/fire_confidence_node
+Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '1': /usr/bin/cmake /home/nathaniel/fxb_ws/src/fire_confidence_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nathaniel/fxb_ws/install/fire_confidence_node

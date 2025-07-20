@@ -1,0 +1,16 @@
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/ament_index/resource_index/package_run_dependencies/firebot_description
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/ament_index/resource_index/parent_prefix_path/firebot_description
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/environment/ament_prefix_path.sh
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/environment/ament_prefix_path.dsv
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/environment/path.sh
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/environment/path.dsv
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/local_setup.bash
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/local_setup.sh
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/local_setup.zsh
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/local_setup.dsv
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/package.dsv
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/ament_index/resource_index/packages/firebot_description
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig.cmake
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig-version.cmake
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/package.xml
+/home/nathaniel/fxb_ws/src/install/firebot_description/share/firebot_description/launch/description.launch.py

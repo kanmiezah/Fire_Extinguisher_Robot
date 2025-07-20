@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/package_run_dependencies/firebot_description
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/parent_prefix_path/firebot_description
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/path.sh
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/path.dsv
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.bash
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.sh
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.zsh
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.dsv
+-- Installing: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.dsv
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/packages/firebot_description
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig.cmake
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig-version.cmake
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.xml
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch/description.launch.py
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/robot_core.xacro
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/camera.xacro
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/inertial_macros.xacro
+-- Installing: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/robot.urdf.xacro
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/lidar.xacro
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch
+-- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch/description.launch.py

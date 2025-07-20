@@ -1,0 +1,10 @@
+
+---
+
+### ✅ `camera_node/requirements.txt`
+
+```txt
+rclpy
+sensor_msgs
+cv_bridge
+opencv-python

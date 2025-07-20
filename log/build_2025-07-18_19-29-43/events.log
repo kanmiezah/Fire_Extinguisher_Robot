@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (-) JobUnselected: {'identifier': 'bringup'}
+[0.001171] (-) JobUnselected: {'identifier': 'camera_node'}
+[0.001263] (-) JobUnselected: {'identifier': 'comm_node'}
+[0.001347] (-) JobUnselected: {'identifier': 'lidar_node'}
+[0.001431] (-) JobUnselected: {'identifier': 'motor_control_node'}
+[0.001514] (-) JobUnselected: {'identifier': 'navigation'}
+[0.001600] (-) JobUnselected: {'identifier': 'sensor_fusion_node'}
+[0.001708] (-) JobUnselected: {'identifier': 'sim_robot'}
+[0.001792] (-) JobUnselected: {'identifier': 'slam_node'}
+[0.001875] (-) JobUnselected: {'identifier': 'smoke_sensor_node'}
+[0.001960] (-) JobUnselected: {'identifier': 'suppression_node'}
+[0.002044] (-) JobUnselected: {'identifier': 'yolo_inference'}
+[0.002138] (state_machine_node) JobQueued: {'identifier': 'state_machine_node', 'dependencies': OrderedDict()}
+[0.002519] (state_machine_node) JobStarted: {'identifier': 'state_machine_node'}
+[0.098835] (-) TimerEvent: {}
+[0.199255] (-) TimerEvent: {}
+[0.299651] (-) TimerEvent: {}
+[0.400005] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601443] (-) TimerEvent: {}
+[0.701826] (-) TimerEvent: {}
+[0.802301] (-) TimerEvent: {}
+[0.902727] (-) TimerEvent: {}
+[1.003185] (-) TimerEvent: {}
+[1.103702] (-) TimerEvent: {}
+[1.204207] (-) TimerEvent: {}
+[1.304615] (-) TimerEvent: {}
+[1.405036] (-) TimerEvent: {}
+[1.505409] (-) TimerEvent: {}
+[1.605813] (-) TimerEvent: {}
+[1.706192] (-) TimerEvent: {}
+[1.806536] (-) TimerEvent: {}
+[1.906905] (-) TimerEvent: {}
+[2.007344] (-) TimerEvent: {}
+[2.107719] (-) TimerEvent: {}
+[2.208105] (-) TimerEvent: {}
+[2.243626] (state_machine_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/state_machine_node', 'build', '--build-base', '/home/nathaniel/fxb_ws/build/state_machine_node/build', 'install', '--record', '/home/nathaniel/fxb_ws/build/state_machine_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nathaniel/fxb_ws/src/state_machine_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nathaniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathaniel', 'OLDPWD': '/home/nathaniel', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathaniel/fxb_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathaniel', 'NAME': 'kanmiezaah', 'WSL_INTEROP': '/run/WSL/222_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.5.9.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Nathaniel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nathaniel/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nathaniel/fxb_ws/build/state_machine_node', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathaniel/fxb_ws/build/state_machine_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[2.308304] (-) TimerEvent: {}
+[2.408751] (-) TimerEvent: {}
+[2.509125] (-) TimerEvent: {}
+[2.609589] (-) TimerEvent: {}
+[2.710037] (-) TimerEvent: {}
+[2.788165] (state_machine_node) StdoutLine: {'line': b'running egg_info\n'}
+[2.788686] (state_machine_node) StdoutLine: {'line': b'creating ../../build/state_machine_node/state_machine_node.egg-info\n'}
+[2.810336] (-) TimerEvent: {}
+[2.832988] (state_machine_node) StdoutLine: {'line': b'writing ../../build/state_machine_node/state_machine_node.egg-info/PKG-INFO\n'}
+[2.833495] (state_machine_node) StdoutLine: {'line': b'writing dependency_links to ../../build/state_machine_node/state_machine_node.egg-info/dependency_links.txt\n'}
+[2.833928] (state_machine_node) StdoutLine: {'line': b'writing entry points to ../../build/state_machine_node/state_machine_node.egg-info/entry_points.txt\n'}
+[2.834320] (state_machine_node) StdoutLine: {'line': b'writing requirements to ../../build/state_machine_node/state_machine_node.egg-info/requires.txt\n'}
+[2.834681] (state_machine_node) StdoutLine: {'line': b'writing top-level names to ../../build/state_machine_node/state_machine_node.egg-info/top_level.txt\n'}
+[2.835178] (state_machine_node) StdoutLine: {'line': b"writing manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'\n"}
+[2.910429] (-) TimerEvent: {}
+[2.941474] (state_machine_node) StdoutLine: {'line': b"reading manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'\n"}
+[2.942609] (state_machine_node) StdoutLine: {'line': b"writing manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'\n"}
+[2.943238] (state_machine_node) StdoutLine: {'line': b'running build\n'}
+[2.943753] (state_machine_node) StdoutLine: {'line': b'running build_py\n'}
+[2.944445] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/build/state_machine_node/build\n'}
+[2.944666] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/build/state_machine_node/build/lib\n'}
+[2.945159] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node\n'}
+[2.945612] (state_machine_node) StdoutLine: {'line': b'copying state_machine_node/__init__.py -> /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node\n'}
+[2.946025] (state_machine_node) StdoutLine: {'line': b'copying state_machine_node/state_machine_node.py -> /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node\n'}
+[2.946631] (state_machine_node) StdoutLine: {'line': b'running install\n'}
+[2.958208] (state_machine_node) StdoutLine: {'line': b'running install_lib\n'}
+[3.006433] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node\n'}
+[3.008184] (state_machine_node) StdoutLine: {'line': b'copying /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node/__init__.py -> /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node\n'}
+[3.009218] (state_machine_node) StdoutLine: {'line': b'copying /home/nathaniel/fxb_ws/build/state_machine_node/build/lib/state_machine_node/state_machine_node.py -> /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node\n'}
+[3.010491] (state_machine_node) StdoutLine: {'line': b'byte-compiling /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node/__init__.py to __init__.cpython-312.pyc\n'}
+[3.010760] (-) TimerEvent: {}
+[3.011963] (state_machine_node) StdoutLine: {'line': b'byte-compiling /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node/state_machine_node.py to state_machine_node.cpython-312.pyc\n'}
+[3.014000] (state_machine_node) StdoutLine: {'line': b'running install_data\n'}
+[3.014672] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index\n'}
+[3.015170] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index\n'}
+[3.015637] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index/packages\n'}
+[3.016679] (state_machine_node) StdoutLine: {'line': b'copying resource/state_machine_node -> /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index/packages\n'}
+[3.017103] (state_machine_node) StdoutLine: {'line': b'copying package.xml -> /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node\n'}
+[3.017422] (state_machine_node) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node/launch\n'}
+[3.017977] (state_machine_node) StdoutLine: {'line': b'copying launch/state_machine.launch.py -> /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node/launch\n'}
+[3.018318] (state_machine_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.066293] (state_machine_node) StdoutLine: {'line': b'Copying ../../build/state_machine_node/state_machine_node.egg-info to /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node-0.0.1-py3.12.egg-info\n'}
+[3.072273] (state_machine_node) StdoutLine: {'line': b'running install_scripts\n'}
+[3.110942] (-) TimerEvent: {}
+[3.211592] (-) TimerEvent: {}
+[3.312055] (-) TimerEvent: {}
+[3.382817] (state_machine_node) StdoutLine: {'line': b'Installing state_machine_node script to /home/nathaniel/fxb_ws/install/state_machine_node/lib/state_machine_node\n'}
+[3.384131] (state_machine_node) StdoutLine: {'line': b"writing list of installed files to '/home/nathaniel/fxb_ws/build/state_machine_node/install.log'\n"}
+[3.412203] (-) TimerEvent: {}
+[3.450229] (state_machine_node) CommandEnded: {'returncode': 0}
+[3.488844] (state_machine_node) JobEnded: {'identifier': 'state_machine_node', 'rc': 0}
+[3.491375] (-) EventReactorShutdown: {}

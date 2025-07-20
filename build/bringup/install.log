@@ -1,0 +1,15 @@
+/home/nathaniel/fxb_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/package.xml
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/launch/nav2_launch.py
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/launch/bringup.launch.py
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/launch/slam_launch.py
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/config/slam_config.yaml
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/config/nav2_params.yaml
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/config/mapper_params_online_async.yaml
+/home/nathaniel/fxb_ws/install/bringup/share/bringup/maps
+/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info/top_level.txt
+/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info/PKG-INFO
+/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info/zip-safe
+/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info/SOURCES.txt
+/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info/requires.txt
+/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info/dependency_links.txt

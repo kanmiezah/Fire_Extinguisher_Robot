@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/bringup/bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt
+writing requirements to ../../build/bringup/bringup.egg-info/requires.txt
+writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt
+reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying package.xml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup
+copying launch/nav2_launch.py -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/launch
+copying launch/bringup.launch.py -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/launch
+copying launch/slam_launch.py -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/launch
+creating /home/nathaniel/fxb_ws/install/bringup/share/bringup/config
+copying config/slam_config.yaml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/config
+copying config/nav2_params.yaml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/config
+copying config/mapper_params_online_async.yaml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/config
+creating /home/nathaniel/fxb_ws/install/bringup/share/bringup/maps
+running install_egg_info
+removing '/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/bringup/bringup.egg-info to /home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/nathaniel/fxb_ws/build/bringup/install.log'

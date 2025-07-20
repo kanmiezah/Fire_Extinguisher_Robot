@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/requires.txt
+writing top-level names to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/top_level.txt
+reading manifest file '../../build/sensor_fusion_node/sensor_fusion_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_fusion_node/sensor_fusion_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_fusion_node/sensor_fusion_node.py -> /home/nathaniel/fxb_ws/build/sensor_fusion_node/build/lib/sensor_fusion_node
+running install
+running install_lib
+copying /home/nathaniel/fxb_ws/build/sensor_fusion_node/build/lib/sensor_fusion_node/sensor_fusion_node.py -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor_fusion_node
+byte-compiling /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor_fusion_node/sensor_fusion_node.py to sensor_fusion_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor_fusion_node-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/sensor_fusion_node/sensor_fusion_node.egg-info to /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor_fusion_node-0.0.1-py3.12.egg-info
+running install_scripts
+Installing sensor_fusion_node script to /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/sensor_fusion_node
+writing list of installed files to '/home/nathaniel/fxb_ws/build/sensor_fusion_node/install.log'

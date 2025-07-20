@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>bringup</name>
+  <version>0.0.1</version>
+  <description>Bringup launch package for all robot components</description>
+
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- List dependent nodes (optional but useful) -->
+  <exec_depend>camera_node</exec_depend>
+  <exec_depend>yolo_inference</exec_depend>
+  <exec_depend>smoke_sensor_node</exec_depend>
+  <exec_depend>suppression_node</exec_depend>
+  <exec_depend>state_machine_node</exec_depend>
+  <exec_depend>sensor_fusion_node</exec_depend>
+  <exec_depend>motor_control_node</exec_depend>
+  <exec_depend>rplidar_ros</exec_depend>
+  <exec_depend>fire_confidence_node</exec_depend>
+
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_planner</exec_depend>
+  <exec_depend>nav2_controller</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+  <exec_depend>nav2_bt_navigator</exec_depend>
+  <exec_depend>nav2_behavior_tree</exec_depend>
+  <exec_depend>nav2_recoveries</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

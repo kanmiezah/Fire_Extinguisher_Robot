@@ -1,0 +1,39 @@
+[1.795s] Invoking command in '/home/nathaniel/fxb_ws/src/odometry_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_node build --build-base /home/nathaniel/fxb_ws/build/odometry_node/build install --record /home/nathaniel/fxb_ws/build/odometry_node/install.log --single-version-externally-managed install_data
+[2.182s] running egg_info
+[2.182s] creating ../../build/odometry_node/odometry_node.egg-info
+[2.209s] writing ../../build/odometry_node/odometry_node.egg-info/PKG-INFO
+[2.209s] writing dependency_links to ../../build/odometry_node/odometry_node.egg-info/dependency_links.txt
+[2.210s] writing entry points to ../../build/odometry_node/odometry_node.egg-info/entry_points.txt
+[2.210s] writing requirements to ../../build/odometry_node/odometry_node.egg-info/requires.txt
+[2.210s] writing top-level names to ../../build/odometry_node/odometry_node.egg-info/top_level.txt
+[2.210s] writing manifest file '../../build/odometry_node/odometry_node.egg-info/SOURCES.txt'
+[2.266s] reading manifest file '../../build/odometry_node/odometry_node.egg-info/SOURCES.txt'
+[2.267s] writing manifest file '../../build/odometry_node/odometry_node.egg-info/SOURCES.txt'
+[2.268s] running build
+[2.268s] running build_py
+[2.269s] creating /home/nathaniel/fxb_ws/build/odometry_node/build
+[2.269s] creating /home/nathaniel/fxb_ws/build/odometry_node/build/lib
+[2.270s] creating /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node
+[2.270s] copying odometry_node/odometry_publisher.py -> /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node
+[2.271s] copying odometry_node/__init__.py -> /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node
+[2.271s] running install
+[2.279s] running install_lib
+[2.308s] creating /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node
+[2.308s] copying /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node/odometry_publisher.py -> /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node
+[2.309s] copying /home/nathaniel/fxb_ws/build/odometry_node/build/lib/odometry_node/__init__.py -> /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node
+[2.310s] byte-compiling /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node/odometry_publisher.py to odometry_publisher.cpython-312.pyc
+[2.313s] byte-compiling /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node/__init__.py to __init__.cpython-312.pyc
+[2.313s] running install_data
+[2.314s] creating /home/nathaniel/fxb_ws/install/odometry_node/share
+[2.314s] creating /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index
+[2.315s] creating /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index/resource_index
+[2.315s] creating /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index/resource_index/packages
+[2.315s] copying resource/odometry_node -> /home/nathaniel/fxb_ws/install/odometry_node/share/ament_index/resource_index/packages
+[2.316s] creating /home/nathaniel/fxb_ws/install/odometry_node/share/odometry_node
+[2.316s] copying package.xml -> /home/nathaniel/fxb_ws/install/odometry_node/share/odometry_node
+[2.316s] running install_egg_info
+[2.348s] Copying ../../build/odometry_node/odometry_node.egg-info to /home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages/odometry_node-0.1.0-py3.12.egg-info
+[2.351s] running install_scripts
+[2.568s] Installing odometry_publisher script to /home/nathaniel/fxb_ws/install/odometry_node/lib/odometry_node
+[2.569s] writing list of installed files to '/home/nathaniel/fxb_ws/build/odometry_node/install.log'
+[2.623s] Invoked command in '/home/nathaniel/fxb_ws/src/odometry_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_node build --build-base /home/nathaniel/fxb_ws/build/odometry_node/build install --record /home/nathaniel/fxb_ws/build/odometry_node/install.log --single-version-externally-managed install_data

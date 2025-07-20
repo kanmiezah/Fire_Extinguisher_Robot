@@ -1,0 +1,66 @@
+[0.605s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake /home/nathaniel/fxb_ws/src/fire_confidence_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nathaniel/fxb_ws/install/fire_confidence_node
+[2.505s] -- The C compiler identification is GNU 13.3.0
+[2.505s] -- The CXX compiler identification is GNU 13.3.0
+[2.506s] -- Detecting C compiler ABI info
+[2.506s] -- Detecting C compiler ABI info - done
+[2.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.507s] -- Detecting C compile features
+[2.507s] -- Detecting C compile features - done
+[2.507s] -- Detecting CXX compiler ABI info
+[2.683s] -- Detecting CXX compiler ABI info - done
+[2.701s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.701s] -- Detecting CXX compile features
+[2.702s] -- Detecting CXX compile features - done
+[2.733s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.091s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.867s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.882s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.432s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.502s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.795s] -- Configuring done (5.1s)
+[5.861s] -- Generating done (0.1s)
+[5.875s] [33mCMake Warning:
+[5.875s]   Manually-specified variables were not used by the project:
+[5.876s] 
+[5.876s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[5.876s] 
+[5.876s] [0m
+[5.893s] -- Build files have been written to: /home/nathaniel/fxb_ws/build/fire_confidence_node
+[5.922s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '0': /usr/bin/cmake /home/nathaniel/fxb_ws/src/fire_confidence_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nathaniel/fxb_ws/install/fire_confidence_node
+[5.923s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[6.247s] Built target ament_cmake_python_copy_fire_confidence_node_setup
+[6.322s] Built target ament_cmake_python_copy_fire_confidence_node
+[7.206s] running egg_info
+[7.210s] creating fire_confidence_node.egg-info
+[7.315s] writing fire_confidence_node.egg-info/PKG-INFO
+[7.317s] writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+[7.317s] writing top-level names to fire_confidence_node.egg-info/top_level.txt
+[7.318s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[7.636s] reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[7.636s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[7.755s] Built target ament_cmake_python_build_fire_confidence_node_egg
+[7.836s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '0': /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/fire_confidence_node -- -j8 -l8
+[7.880s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/fire_confidence_node
+[8.798s] -- Install configuration: ""
+[8.807s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.sh
+[8.807s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/environment/pythonpath.dsv
+[8.816s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info
+[8.820s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/top_level.txt
+[8.852s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/PKG-INFO
+[8.853s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/SOURCES.txt
+[8.855s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node-0.1.0-py3.12.egg-info/dependency_links.txt
+[8.855s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node
+[8.855s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py
+[8.856s] -- Installing: /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py
+[8.856s] Listing '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node'...
+[8.856s] Compiling '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/__init__.py'...
+[8.856s] Compiling '/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire_confidence_node/fire_confidence_node.py'...
+[8.857s] [31mCMake Error at cmake_install.cmake:70 (file):
+[8.857s]   file INSTALL cannot find
+[8.857s]   "/home/nathaniel/fxb_ws/src/fire_confidence_node/fire_confidence_publisher.py":
+[8.857s]   No such file or directory.
+[8.857s] 
+[8.858s] [0m
+[8.858s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '1': /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/fire_confidence_node

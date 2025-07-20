@@ -1,0 +1,21 @@
+[6.413s] Invoking command in '/home/nathaniel/fxb_ws/src/state_machine_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/state_machine_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/state_machine_node build --build-base /home/nathaniel/fxb_ws/build/state_machine_node/build install --record /home/nathaniel/fxb_ws/build/state_machine_node/install.log --single-version-externally-managed install_data
+[8.300s] running egg_info
+[8.301s] writing ../../build/state_machine_node/state_machine_node.egg-info/PKG-INFO
+[8.301s] writing dependency_links to ../../build/state_machine_node/state_machine_node.egg-info/dependency_links.txt
+[8.301s] writing entry points to ../../build/state_machine_node/state_machine_node.egg-info/entry_points.txt
+[8.302s] writing requirements to ../../build/state_machine_node/state_machine_node.egg-info/requires.txt
+[8.302s] writing top-level names to ../../build/state_machine_node/state_machine_node.egg-info/top_level.txt
+[8.309s] reading manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'
+[8.309s] writing manifest file '../../build/state_machine_node/state_machine_node.egg-info/SOURCES.txt'
+[8.310s] running build
+[8.310s] running build_py
+[8.310s] running install
+[8.310s] running install_lib
+[8.311s] running install_data
+[8.311s] running install_egg_info
+[8.311s] removing '/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node-0.0.1-py3.12.egg-info' (and everything under it)
+[8.313s] Copying ../../build/state_machine_node/state_machine_node.egg-info to /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state_machine_node-0.0.1-py3.12.egg-info
+[8.314s] running install_scripts
+[8.779s] Installing state_machine_node script to /home/nathaniel/fxb_ws/install/state_machine_node/lib/state_machine_node
+[8.780s] writing list of installed files to '/home/nathaniel/fxb_ws/build/state_machine_node/install.log'
+[8.851s] Invoked command in '/home/nathaniel/fxb_ws/src/state_machine_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/state_machine_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/state_machine_node build --build-base /home/nathaniel/fxb_ws/build/state_machine_node/build install --record /home/nathaniel/fxb_ws/build/state_machine_node/install.log --single-version-externally-managed install_data

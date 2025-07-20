@@ -1,0 +1,30 @@
+[0.120s] Invoking command in '/home/nathaniel/fxb_ws/build/firebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/firebot_description -- -j8 -l8
+[1.525s] Invoked command in '/home/nathaniel/fxb_ws/build/firebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/firebot_description -- -j8 -l8
+[1.528s] Invoking command in '/home/nathaniel/fxb_ws/build/firebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/firebot_description
+[1.629s] -- Install configuration: ""
+[1.629s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/package_run_dependencies/firebot_description
+[1.629s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/parent_prefix_path/firebot_description
+[1.630s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/ament_prefix_path.sh
+[1.630s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/ament_prefix_path.dsv
+[1.631s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/path.sh
+[1.631s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/path.dsv
+[1.632s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.bash
+[1.632s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.sh
+[1.632s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.zsh
+[1.633s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.dsv
+[1.633s] -- Installing: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.dsv
+[1.634s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/packages/firebot_description
+[1.634s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig.cmake
+[1.635s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig-version.cmake
+[1.636s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.xml
+[1.637s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch
+[1.637s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch/description.launch.py
+[1.637s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf
+[1.638s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/robot_core.xacro
+[1.639s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/camera.xacro
+[1.640s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/inertial_macros.xacro
+[1.640s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/robot.urdf.xacro
+[1.640s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/lidar.xacro
+[1.641s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch
+[1.641s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch/description.launch.py
+[1.669s] Invoked command in '/home/nathaniel/fxb_ws/build/firebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nathaniel/fxb_ws/install/bringup:/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/opt/ros/jazzy /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/firebot_description

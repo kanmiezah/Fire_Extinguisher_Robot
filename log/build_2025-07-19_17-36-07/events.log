@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001726] (-) JobUnselected: {'identifier': 'camera_node'}
+[0.001844] (-) JobUnselected: {'identifier': 'comm_node'}
+[0.001923] (-) JobUnselected: {'identifier': 'fire_confidence_node'}
+[0.001998] (-) JobUnselected: {'identifier': 'lidar_node'}
+[0.002072] (-) JobUnselected: {'identifier': 'motor_control_node'}
+[0.002134] (-) JobUnselected: {'identifier': 'navigation'}
+[0.002275] (-) JobUnselected: {'identifier': 'sensor_fusion_node'}
+[0.002565] (-) JobUnselected: {'identifier': 'sim_robot'}
+[0.002613] (-) JobUnselected: {'identifier': 'smoke_sensor_node'}
+[0.002655] (-) JobUnselected: {'identifier': 'state_machine_node'}
+[0.002693] (-) JobUnselected: {'identifier': 'suppression_node'}
+[0.002729] (-) JobUnselected: {'identifier': 'yolo_inference'}
+[0.002774] (bringup) JobQueued: {'identifier': 'bringup', 'dependencies': OrderedDict({'camera_node': '/home/nathaniel/fxb_ws/install/camera_node', 'fire_confidence_node': '/home/nathaniel/fxb_ws/install/fire_confidence_node', 'motor_control_node': '/home/nathaniel/fxb_ws/install/motor_control_node', 'sensor_fusion_node': '/home/nathaniel/fxb_ws/install/sensor_fusion_node', 'smoke_sensor_node': '/home/nathaniel/fxb_ws/install/smoke_sensor_node', 'state_machine_node': '/home/nathaniel/fxb_ws/install/state_machine_node', 'suppression_node': '/home/nathaniel/fxb_ws/install/suppression_node', 'yolo_inference': '/home/nathaniel/fxb_ws/install/yolo_inference'})}
+[0.002947] (bringup) JobStarted: {'identifier': 'bringup'}
+[0.099372] (-) TimerEvent: {}
+[0.199988] (-) TimerEvent: {}
+[0.300767] (-) TimerEvent: {}
+[0.401421] (-) TimerEvent: {}
+[0.501996] (-) TimerEvent: {}
+[0.602633] (-) TimerEvent: {}
+[0.703229] (-) TimerEvent: {}
+[0.803757] (-) TimerEvent: {}
+[0.904330] (-) TimerEvent: {}
+[1.004745] (-) TimerEvent: {}
+[1.105270] (-) TimerEvent: {}
+[1.205884] (-) TimerEvent: {}
+[1.306540] (-) TimerEvent: {}
+[1.407094] (-) TimerEvent: {}
+[1.507611] (-) TimerEvent: {}
+[1.608185] (-) TimerEvent: {}
+[1.708871] (-) TimerEvent: {}
+[1.809436] (-) TimerEvent: {}
+[1.910161] (-) TimerEvent: {}
+[2.010844] (-) TimerEvent: {}
+[2.111334] (-) TimerEvent: {}
+[2.211808] (-) TimerEvent: {}
+[2.312304] (-) TimerEvent: {}
+[2.412782] (-) TimerEvent: {}
+[2.513212] (-) TimerEvent: {}
+[2.613758] (-) TimerEvent: {}
+[2.714286] (-) TimerEvent: {}
+[2.814817] (-) TimerEvent: {}
+[2.915324] (-) TimerEvent: {}
+[3.015905] (-) TimerEvent: {}
+[3.116576] (-) TimerEvent: {}
+[3.217064] (-) TimerEvent: {}
+[3.317498] (-) TimerEvent: {}
+[3.418032] (-) TimerEvent: {}
+[3.518689] (-) TimerEvent: {}
+[3.619263] (-) TimerEvent: {}
+[3.719918] (-) TimerEvent: {}
+[3.820457] (-) TimerEvent: {}
+[3.920995] (-) TimerEvent: {}
+[4.021711] (-) TimerEvent: {}
+[4.122309] (-) TimerEvent: {}
+[4.222971] (-) TimerEvent: {}
+[4.323474] (-) TimerEvent: {}
+[4.424119] (-) TimerEvent: {}
+[4.524658] (-) TimerEvent: {}
+[4.625165] (-) TimerEvent: {}
+[4.725598] (-) TimerEvent: {}
+[4.826071] (-) TimerEvent: {}
+[4.926581] (-) TimerEvent: {}
+[5.027234] (-) TimerEvent: {}
+[5.089926] (bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bringup', 'build', '--build-base', '/home/nathaniel/fxb_ws/build/bringup/build', 'install', '--record', '/home/nathaniel/fxb_ws/build/bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nathaniel/fxb_ws/src/bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nathaniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/nathaniel/.vscode-server/bin/7adae6a56e34cb64d08899664b814cf620465925/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/nathaniel', 'OLDPWD': '/home/nathaniel/fxb_ws/src', 'TERM_PROGRAM_VERSION': '1.102.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-14f28330-2ceb-4e3b-881b-f593bcde263e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nathaniel/.vscode-server/bin/7adae6a56e34cb64d08899664b814cf620465925/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nathaniel/.vscode-server/bin/7adae6a56e34cb64d08899664b814cf620465925/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nathaniel/fxb_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathaniel', 'NAME': 'kanmiezaah', 'WSL_INTEROP': '/run/WSL/386_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/nathaniel/.vscode-server/bin/7adae6a56e34cb64d08899664b814cf620465925/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Nathaniel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nathaniel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nathaniel/AppData/Roaming/npm:/snap/bin:/home/nathaniel/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-19b108d64f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/nathaniel/fxb_ws/install/yolo_inference:/home/nathaniel/fxb_ws/install/suppression_node:/home/nathaniel/fxb_ws/install/state_machine_node:/home/nathaniel/fxb_ws/install/smoke_sensor_node:/home/nathaniel/fxb_ws/install/sensor_fusion_node:/home/nathaniel/fxb_ws/install/motor_control_node:/home/nathaniel/fxb_ws/install/camera_node:/home/nathaniel/fxb_ws/install/bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nathaniel/fxb_ws/build/bringup', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathaniel/fxb_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[5.127356] (-) TimerEvent: {}
+[5.227784] (-) TimerEvent: {}
+[5.328357] (-) TimerEvent: {}
+[5.428869] (-) TimerEvent: {}
+[5.529345] (-) TimerEvent: {}
+[5.629818] (-) TimerEvent: {}
+[5.730300] (-) TimerEvent: {}
+[5.830785] (-) TimerEvent: {}
+[5.861754] (bringup) StdoutLine: {'line': b'running egg_info\n'}
+[5.918078] (bringup) StdoutLine: {'line': b'writing ../../build/bringup/bringup.egg-info/PKG-INFO\n'}
+[5.922522] (bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/bringup/bringup.egg-info/dependency_links.txt\n'}
+[5.923199] (bringup) StdoutLine: {'line': b'writing requirements to ../../build/bringup/bringup.egg-info/requires.txt\n'}
+[5.923747] (bringup) StdoutLine: {'line': b'writing top-level names to ../../build/bringup/bringup.egg-info/top_level.txt\n'}
+[5.930889] (-) TimerEvent: {}
+[5.984135] (bringup) StdoutLine: {'line': b"reading manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'\n"}
+[5.986682] (bringup) StdoutLine: {'line': b"writing manifest file '../../build/bringup/bringup.egg-info/SOURCES.txt'\n"}
+[5.987389] (bringup) StdoutLine: {'line': b'running build\n'}
+[5.987579] (bringup) StdoutLine: {'line': b'running install\n'}
+[6.005427] (bringup) StdoutLine: {'line': b'running install_data\n'}
+[6.006040] (bringup) StdoutLine: {'line': b'copying package.xml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup\n'}
+[6.007899] (bringup) StdoutLine: {'line': b'copying launch/nav2_launch.py -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/launch\n'}
+[6.008888] (bringup) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/launch\n'}
+[6.010006] (bringup) StdoutLine: {'line': b'copying launch/slam_launch.py -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/launch\n'}
+[6.010921] (bringup) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/bringup/share/bringup/config\n'}
+[6.012186] (bringup) StdoutLine: {'line': b'copying config/slam_config.yaml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/config\n'}
+[6.013269] (bringup) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/config\n'}
+[6.014299] (bringup) StdoutLine: {'line': b'copying config/mapper_params_online_async.yaml -> /home/nathaniel/fxb_ws/install/bringup/share/bringup/config\n'}
+[6.015060] (bringup) StdoutLine: {'line': b'creating /home/nathaniel/fxb_ws/install/bringup/share/bringup/maps\n'}
+[6.016379] (bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.031055] (-) TimerEvent: {}
+[6.131565] (-) TimerEvent: {}
+[6.139464] (bringup) StdoutLine: {'line': b"removing '/home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[6.141477] (bringup) StdoutLine: {'line': b'Copying ../../build/bringup/bringup.egg-info to /home/nathaniel/fxb_ws/install/bringup/lib/python3.12/site-packages/bringup-0.0.1-py3.12.egg-info\n'}
+[6.148334] (bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[6.231648] (-) TimerEvent: {}
+[6.332070] (-) TimerEvent: {}
+[6.432596] (-) TimerEvent: {}
+[6.489580] (bringup) StdoutLine: {'line': b"writing list of installed files to '/home/nathaniel/fxb_ws/build/bringup/install.log'\n"}
+[6.532773] (-) TimerEvent: {}
+[6.551280] (bringup) CommandEnded: {'returncode': 0}
+[6.580429] (bringup) JobEnded: {'identifier': 'bringup', 'rc': 0}
+[6.582746] (-) EventReactorShutdown: {}

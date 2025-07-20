@@ -1,0 +1,2 @@
+[console_scripts]
+suppression_node = suppression_node.suppression_node:main

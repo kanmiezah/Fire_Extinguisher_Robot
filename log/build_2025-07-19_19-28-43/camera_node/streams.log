@@ -1,0 +1,21 @@
+[7.078s] Invoking command in '/home/nathaniel/fxb_ws/src/camera_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/nathaniel/fxb_ws/build/camera_node/build install --record /home/nathaniel/fxb_ws/build/camera_node/install.log --single-version-externally-managed install_data
+[8.139s] running egg_info
+[8.229s] writing ../../build/camera_node/camera_node.egg-info/PKG-INFO
+[8.229s] writing dependency_links to ../../build/camera_node/camera_node.egg-info/dependency_links.txt
+[8.230s] writing entry points to ../../build/camera_node/camera_node.egg-info/entry_points.txt
+[8.230s] writing requirements to ../../build/camera_node/camera_node.egg-info/requires.txt
+[8.231s] writing top-level names to ../../build/camera_node/camera_node.egg-info/top_level.txt
+[8.422s] reading manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[8.424s] writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[8.424s] running build
+[8.425s] running build_py
+[8.429s] running install
+[8.453s] running install_lib
+[8.542s] running install_data
+[8.543s] running install_egg_info
+[8.639s] removing '/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages/camera_node-0.0.0-py3.12.egg-info' (and everything under it)
+[8.642s] Copying ../../build/camera_node/camera_node.egg-info to /home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages/camera_node-0.0.0-py3.12.egg-info
+[8.645s] running install_scripts
+[9.246s] Installing camera_node script to /home/nathaniel/fxb_ws/install/camera_node/lib/camera_node
+[9.246s] writing list of installed files to '/home/nathaniel/fxb_ws/build/camera_node/install.log'
+[10.645s] Invoked command in '/home/nathaniel/fxb_ws/src/camera_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/nathaniel/fxb_ws/build/camera_node/build install --record /home/nathaniel/fxb_ws/build/camera_node/install.log --single-version-externally-managed install_data

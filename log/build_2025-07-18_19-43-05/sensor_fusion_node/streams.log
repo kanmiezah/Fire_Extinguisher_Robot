@@ -1,0 +1,21 @@
+[6.227s] Invoking command in '/home/nathaniel/fxb_ws/src/sensor_fusion_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/sensor_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_fusion_node build --build-base /home/nathaniel/fxb_ws/build/sensor_fusion_node/build install --record /home/nathaniel/fxb_ws/build/sensor_fusion_node/install.log --single-version-externally-managed install_data
+[7.219s] running egg_info
+[7.300s] writing ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/PKG-INFO
+[7.302s] writing dependency_links to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/dependency_links.txt
+[7.303s] writing entry points to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/entry_points.txt
+[7.303s] writing requirements to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/requires.txt
+[7.303s] writing top-level names to ../../build/sensor_fusion_node/sensor_fusion_node.egg-info/top_level.txt
+[7.457s] reading manifest file '../../build/sensor_fusion_node/sensor_fusion_node.egg-info/SOURCES.txt'
+[7.460s] writing manifest file '../../build/sensor_fusion_node/sensor_fusion_node.egg-info/SOURCES.txt'
+[7.461s] running build
+[7.464s] running build_py
+[7.465s] running install
+[7.494s] running install_lib
+[7.605s] running install_data
+[7.607s] running install_egg_info
+[7.713s] removing '/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor_fusion_node-0.0.1-py3.12.egg-info' (and everything under it)
+[7.714s] Copying ../../build/sensor_fusion_node/sensor_fusion_node.egg-info to /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor_fusion_node-0.0.1-py3.12.egg-info
+[7.723s] running install_scripts
+[8.292s] Installing sensor_fusion_node script to /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/sensor_fusion_node
+[8.293s] writing list of installed files to '/home/nathaniel/fxb_ws/build/sensor_fusion_node/install.log'
+[8.452s] Invoked command in '/home/nathaniel/fxb_ws/src/sensor_fusion_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/sensor_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_fusion_node build --build-base /home/nathaniel/fxb_ws/build/sensor_fusion_node/build install --record /home/nathaniel/fxb_ws/build/sensor_fusion_node/install.log --single-version-externally-managed install_data

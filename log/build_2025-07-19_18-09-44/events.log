@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000795] (-) JobUnselected: {'identifier': 'bringup'}
+[0.000892] (-) JobUnselected: {'identifier': 'camera_node'}
+[0.000955] (-) JobUnselected: {'identifier': 'comm_node'}
+[0.000982] (-) JobUnselected: {'identifier': 'diff_drive_odometry_node'}
+[0.001036] (-) JobUnselected: {'identifier': 'fire_confidence_node'}
+[0.001064] (-) JobUnselected: {'identifier': 'lidar_node'}
+[0.001116] (-) JobUnselected: {'identifier': 'motor_control_node'}
+[0.001141] (-) JobUnselected: {'identifier': 'sensor_fusion_node'}
+[0.001194] (-) JobUnselected: {'identifier': 'smoke_sensor_node'}
+[0.001259] (-) JobUnselected: {'identifier': 'state_machine_node'}
+[0.001283] (-) JobUnselected: {'identifier': 'suppression_node'}
+[0.001334] (-) JobUnselected: {'identifier': 'yolo_inference'}
+[0.001393] (description) JobQueued: {'identifier': 'description', 'dependencies': OrderedDict()}
+[0.001455] (description) JobStarted: {'identifier': 'description'}
+[0.090462] (description) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n             ^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\n           ^^^^^^\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: /usr/bin/python3: can\'t open file \'/home/nathaniel/fxb_ws/src/description/setup.py\': [Errno 2] No such file or directory\n\n'}
+[0.091939] (description) JobEnded: {'identifier': 'description', 'rc': 1}
+[0.099357] (-) TimerEvent: {}
+[0.101227] (-) EventReactorShutdown: {}

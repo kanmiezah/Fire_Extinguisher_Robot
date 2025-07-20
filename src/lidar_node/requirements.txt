@@ -1,0 +1,11 @@
+
+---
+
+### 2. 📦 `requirements.txt`
+
+This node doesn’t use any custom Python packages itself, but you may still include minimal requirements:
+
+```txt
+rclpy
+launch
+launch_ros

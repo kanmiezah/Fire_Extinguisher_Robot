@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing fire_confidence_node.egg-info/PKG-INFO
+writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+writing entry points to fire_confidence_node.egg-info/entry_points.txt
+writing requirements to fire_confidence_node.egg-info/requires.txt
+writing top-level names to fire_confidence_node.egg-info/top_level.txt
+reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire-confidence-node.egg-link (link to .)
+Installing fire_confidence_node script to /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/fire_confidence_node
+
+Installed /home/nathaniel/fxb_ws/build/fire_confidence_node
+running symlink_data

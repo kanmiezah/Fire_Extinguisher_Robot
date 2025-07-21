@@ -111,9 +111,7 @@ function colcon_package_source_powershell_script {
 $env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.FullName
 
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/fire_confidence_node/hook/pythonpath.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/fire_confidence_node/hook/ros_package_path.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/fire_confidence_node/hook/catkin_pythonpath.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/fire_confidence_node/hook/pkg_config_path.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/fire_confidence_node/hook/pkg_config_path_multiarch.ps1"
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/fire_confidence_node/hook/ament_prefix_path.ps1"
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\../../build/fire_confidence_node/share/fire_confidence_node/hook/pythonpath_develop.ps1"
 
 Remove-Item Env:\COLCON_CURRENT_PREFIX

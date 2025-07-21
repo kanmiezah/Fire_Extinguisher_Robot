@@ -4,3 +4,6 @@ source;share/suppression_node/hook/pythonpath.sh
 source;share/suppression_node/hook/ament_prefix_path.ps1
 source;share/suppression_node/hook/ament_prefix_path.dsv
 source;share/suppression_node/hook/ament_prefix_path.sh
+source;../../build/suppression_node/share/suppression_node/hook/pythonpath_develop.ps1
+source;../../build/suppression_node/share/suppression_node/hook/pythonpath_develop.dsv
+source;../../build/suppression_node/share/suppression_node/hook/pythonpath_develop.sh

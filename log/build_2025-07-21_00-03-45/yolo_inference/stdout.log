@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing yolo_inference.egg-info/PKG-INFO
+writing dependency_links to yolo_inference.egg-info/dependency_links.txt
+writing entry points to yolo_inference.egg-info/entry_points.txt
+writing requirements to yolo_inference.egg-info/requires.txt
+writing top-level names to yolo_inference.egg-info/top_level.txt
+reading manifest file 'yolo_inference.egg-info/SOURCES.txt'
+writing manifest file 'yolo_inference.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nathaniel/fxb_ws/install/yolo_inference/lib/python3.12/site-packages/yolo-inference.egg-link (link to .)
+Installing yolo_node script to /home/nathaniel/fxb_ws/install/yolo_inference/lib/yolo_inference
+
+Installed /home/nathaniel/fxb_ws/build/yolo_inference
+running symlink_data
+symbolically linking /home/nathaniel/fxb_ws/build/yolo_inference/resource/yolo_inference -> /home/nathaniel/fxb_ws/install/yolo_inference/share/ament_index/resource_index/packages
+symbolically linking /home/nathaniel/fxb_ws/build/yolo_inference/package.xml -> /home/nathaniel/fxb_ws/install/yolo_inference/share/yolo_inference
+symbolically linking /home/nathaniel/fxb_ws/build/yolo_inference/launch/yolo_node.launch.py -> /home/nathaniel/fxb_ws/install/yolo_inference/share/yolo_inference/launch

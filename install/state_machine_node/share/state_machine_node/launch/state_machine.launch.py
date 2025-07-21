@@ -1,12 +1,1 @@
-from launch import LaunchDescription
-from launch_ros.actions import Node
-
-def generate_launch_description():
-    return LaunchDescription([
-        Node(
-            package='state_machine_node',
-            executable='state_machine_node',
-            name='state_machine_node',
-            output='screen'
-        )
-    ])
+/home/nathaniel/fxb_ws/build/state_machine_node/launch/state_machine.launch.py

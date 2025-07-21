@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/nathaniel/fxb_ws/build/firebot_description/ament_cmake_environment_hooks/path.dsv

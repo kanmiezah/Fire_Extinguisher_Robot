@@ -1,0 +1,15 @@
+[3.115s] Invoking command in '/home/nathaniel/fxb_ws/build/lidar_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/lidar_node/build --no-deps symlink_data
+[3.960s] running develop
+[4.585s] running egg_info
+[4.633s] writing lidar_node.egg-info/PKG-INFO
+[4.634s] writing dependency_links to lidar_node.egg-info/dependency_links.txt
+[4.634s] writing requirements to lidar_node.egg-info/requires.txt
+[4.635s] writing top-level names to lidar_node.egg-info/top_level.txt
+[4.686s] reading manifest file 'lidar_node.egg-info/SOURCES.txt'
+[4.689s] writing manifest file 'lidar_node.egg-info/SOURCES.txt'
+[4.743s] running build_ext
+[4.802s] Creating /home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages/lidar-node.egg-link (link to .)
+[4.804s] 
+[4.804s] Installed /home/nathaniel/fxb_ws/build/lidar_node
+[4.805s] running symlink_data
+[4.923s] Invoked command in '/home/nathaniel/fxb_ws/build/lidar_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/lidar_node/build --no-deps symlink_data

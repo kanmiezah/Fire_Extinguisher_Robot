@@ -1,0 +1,17 @@
+[6.223s] Invoking command in '/home/nathaniel/fxb_ws/build/motor_control_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/motor_control_node/build --no-deps symlink_data
+[7.454s] running develop
+[8.267s] running egg_info
+[8.342s] writing motor_control_node.egg-info/PKG-INFO
+[8.343s] writing dependency_links to motor_control_node.egg-info/dependency_links.txt
+[8.343s] writing entry points to motor_control_node.egg-info/entry_points.txt
+[8.343s] writing requirements to motor_control_node.egg-info/requires.txt
+[8.343s] writing top-level names to motor_control_node.egg-info/top_level.txt
+[8.493s] reading manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[8.497s] writing manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[8.582s] running build_ext
+[8.582s] Creating /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor-control-node.egg-link (link to .)
+[8.584s] Installing motor_control_node script to /home/nathaniel/fxb_ws/install/motor_control_node/lib/motor_control
+[8.586s] 
+[8.586s] Installed /home/nathaniel/fxb_ws/build/motor_control_node
+[8.586s] running symlink_data
+[8.704s] Invoked command in '/home/nathaniel/fxb_ws/build/motor_control_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/motor_control_node/build --no-deps symlink_data

@@ -12,6 +12,10 @@ launch/smoke_sensor_node.launch.py
 resource/smoke_sensor_node
 smoke_sensor_node/__init__.py
 smoke_sensor_node/smoke_sensor_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+smoke_sensor_node.egg-info/PKG-INFO
+smoke_sensor_node.egg-info/SOURCES.txt
+smoke_sensor_node.egg-info/dependency_links.txt
+smoke_sensor_node.egg-info/entry_points.txt
+smoke_sensor_node.egg-info/requires.txt
+smoke_sensor_node.egg-info/top_level.txt
+smoke_sensor_node.egg-info/zip-safe

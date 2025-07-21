@@ -1,3 +1,4 @@
+README.md
 package.xml
 setup.cfg
 setup.py
@@ -8,6 +9,7 @@ setup.py
 ../../build/odometry_node/odometry_node.egg-info/requires.txt
 ../../build/odometry_node/odometry_node.egg-info/top_level.txt
 ../../build/odometry_node/odometry_node.egg-info/zip-safe
+launch/odometry_node.launch.py
 odometry_node/__init__.py
 odometry_node/odometry_publisher.py
 resource/odometry_node

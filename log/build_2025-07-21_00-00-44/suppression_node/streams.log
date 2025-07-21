@@ -1,0 +1,19 @@
+[8.037s] Invoking command in '/home/nathaniel/fxb_ws/build/suppression_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/suppression_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/suppression_node/build --no-deps symlink_data --force
+[9.655s] running develop
+[10.480s] running egg_info
+[10.559s] writing suppression_node.egg-info/PKG-INFO
+[10.563s] writing dependency_links to suppression_node.egg-info/dependency_links.txt
+[10.565s] writing entry points to suppression_node.egg-info/entry_points.txt
+[10.565s] writing requirements to suppression_node.egg-info/requires.txt
+[10.565s] writing top-level names to suppression_node.egg-info/top_level.txt
+[10.705s] reading manifest file 'suppression_node.egg-info/SOURCES.txt'
+[10.709s] writing manifest file 'suppression_node.egg-info/SOURCES.txt'
+[10.783s] running build_ext
+[10.784s] Creating /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression-node.egg-link (link to .)
+[10.785s] Installing suppression_node script to /home/nathaniel/fxb_ws/install/suppression_node/lib/suppression_node
+[10.787s] 
+[10.787s] Installed /home/nathaniel/fxb_ws/build/suppression_node
+[10.788s] running symlink_data
+[10.789s] symbolically linking /home/nathaniel/fxb_ws/build/suppression_node/resource/suppression_node -> /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index/packages
+[10.791s] symbolically linking /home/nathaniel/fxb_ws/build/suppression_node/package.xml -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node
+[10.792s] symbolically linking /home/nathaniel/fxb_ws/build/suppression_node/launch/suppression_node.launch.py -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node/launch

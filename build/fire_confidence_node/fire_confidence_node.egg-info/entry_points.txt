@@ -1,0 +1,2 @@
+[console_scripts]
+fire_confidence_node = fire_confidence_node.fire_confidence_node:main

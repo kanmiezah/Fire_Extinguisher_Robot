@@ -1,0 +1,17 @@
+[7.967s] Invoking command in '/home/nathaniel/fxb_ws/build/suppression_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/suppression_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/suppression_node/build --no-deps symlink_data
+[9.185s] running develop
+[9.995s] running egg_info
+[10.071s] writing suppression_node.egg-info/PKG-INFO
+[10.072s] writing dependency_links to suppression_node.egg-info/dependency_links.txt
+[10.073s] writing entry points to suppression_node.egg-info/entry_points.txt
+[10.076s] writing requirements to suppression_node.egg-info/requires.txt
+[10.076s] writing top-level names to suppression_node.egg-info/top_level.txt
+[10.248s] reading manifest file 'suppression_node.egg-info/SOURCES.txt'
+[10.252s] writing manifest file 'suppression_node.egg-info/SOURCES.txt'
+[10.358s] running build_ext
+[10.358s] Creating /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression-node.egg-link (link to .)
+[10.360s] Installing suppression_node script to /home/nathaniel/fxb_ws/install/suppression_node/lib/suppression_node
+[10.364s] 
+[10.364s] Installed /home/nathaniel/fxb_ws/build/suppression_node
+[10.364s] running symlink_data
+[10.630s] Invoked command in '/home/nathaniel/fxb_ws/build/suppression_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/suppression_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/suppression_node/build --no-deps symlink_data

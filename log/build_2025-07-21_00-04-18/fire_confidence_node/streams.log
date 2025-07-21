@@ -1,0 +1,17 @@
+[5.574s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/fire_confidence_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/fire_confidence_node/build --no-deps symlink_data
+[6.643s] running develop
+[7.382s] running egg_info
+[7.460s] writing fire_confidence_node.egg-info/PKG-INFO
+[7.460s] writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+[7.461s] writing entry points to fire_confidence_node.egg-info/entry_points.txt
+[7.461s] writing requirements to fire_confidence_node.egg-info/requires.txt
+[7.462s] writing top-level names to fire_confidence_node.egg-info/top_level.txt
+[7.604s] reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[7.605s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[7.687s] running build_ext
+[7.687s] Creating /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire-confidence-node.egg-link (link to .)
+[7.688s] Installing fire_confidence_node script to /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/fire_confidence_node
+[7.695s] 
+[7.695s] Installed /home/nathaniel/fxb_ws/build/fire_confidence_node
+[7.697s] running symlink_data
+[7.832s] Invoked command in '/home/nathaniel/fxb_ws/build/fire_confidence_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/fire_confidence_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/fire_confidence_node/build --no-deps symlink_data

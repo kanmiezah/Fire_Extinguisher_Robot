@@ -1,3 +1,4 @@
+README.md
 package.xml
 setup.cfg
 setup.py
@@ -10,8 +11,12 @@ setup.py
 ../../build/diff_drive_odometry_node/diff_drive_odometry_node.egg-info/zip-safe
 diff_drive_odometry_node/__init__.py
 diff_drive_odometry_node/diff_drive_odometry_node.py
+diff_drive_odometry_node.egg-info/PKG-INFO
+diff_drive_odometry_node.egg-info/SOURCES.txt
+diff_drive_odometry_node.egg-info/dependency_links.txt
+diff_drive_odometry_node.egg-info/entry_points.txt
+diff_drive_odometry_node.egg-info/requires.txt
+diff_drive_odometry_node.egg-info/top_level.txt
+diff_drive_odometry_node.egg-info/zip-safe
 launch/diff_drive_odometry.launch.py
 resource/diff_drive_odometry_node
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: lidar-node
-Version: 0.0.0
-Summary: Launch-only wrapper for RPLidar using rplidar_ros.
-Maintainer: Your Name
-Maintainer-email: your.email@example.com
+Version: 0.0.1
+Summary: Launch-only wrapper for RPLIDAR using rplidar_ros.
+Maintainer: Nathaniel Kangah Miezah
+Maintainer-email: nathaniel@todo.todo
 License: MIT

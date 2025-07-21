@@ -1,0 +1,1 @@
+/home/nathaniel/fxb_ws/src/motor_control_node/launch/motor_control.launch.py

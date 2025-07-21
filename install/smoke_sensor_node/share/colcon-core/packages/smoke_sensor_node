@@ -1,1 +1,1 @@
-rclpy:std_msgs
+python3-adafruit-blinka:python3-adafruit-circuitpython-mcp3xxx:rclpy:std_msgs

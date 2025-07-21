@@ -1,0 +1,9 @@
+
+---
+
+### ✅ `requirements.txt`
+
+```txt
+rclpy
+std_msgs
+pyserial

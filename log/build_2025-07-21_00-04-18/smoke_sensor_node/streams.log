@@ -1,0 +1,17 @@
+[5.482s] Invoking command in '/home/nathaniel/fxb_ws/build/smoke_sensor_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/smoke_sensor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/smoke_sensor_node/build --no-deps symlink_data
+[6.621s] running develop
+[7.367s] running egg_info
+[7.436s] writing smoke_sensor_node.egg-info/PKG-INFO
+[7.437s] writing dependency_links to smoke_sensor_node.egg-info/dependency_links.txt
+[7.440s] writing entry points to smoke_sensor_node.egg-info/entry_points.txt
+[7.441s] writing requirements to smoke_sensor_node.egg-info/requires.txt
+[7.441s] writing top-level names to smoke_sensor_node.egg-info/top_level.txt
+[7.593s] reading manifest file 'smoke_sensor_node.egg-info/SOURCES.txt'
+[7.593s] writing manifest file 'smoke_sensor_node.egg-info/SOURCES.txt'
+[7.680s] running build_ext
+[7.680s] Creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke-sensor-node.egg-link (link to .)
+[7.685s] Installing smoke_sensor_node script to /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/smoke_sensor_node
+[7.688s] 
+[7.689s] Installed /home/nathaniel/fxb_ws/build/smoke_sensor_node
+[7.689s] running symlink_data
+[7.953s] Invoked command in '/home/nathaniel/fxb_ws/build/smoke_sensor_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/smoke_sensor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/smoke_sensor_node/build --no-deps symlink_data

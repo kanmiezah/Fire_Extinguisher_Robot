@@ -1,0 +1,17 @@
+[8.285s] Invoking command in '/home/nathaniel/fxb_ws/build/diff_drive_odometry_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build --no-deps symlink_data
+[10.610s] running develop
+[10.921s] running egg_info
+[10.994s] writing diff_drive_odometry_node.egg-info/PKG-INFO
+[10.994s] writing dependency_links to diff_drive_odometry_node.egg-info/dependency_links.txt
+[10.995s] writing entry points to diff_drive_odometry_node.egg-info/entry_points.txt
+[10.996s] writing requirements to diff_drive_odometry_node.egg-info/requires.txt
+[10.996s] writing top-level names to diff_drive_odometry_node.egg-info/top_level.txt
+[11.153s] reading manifest file 'diff_drive_odometry_node.egg-info/SOURCES.txt'
+[11.156s] writing manifest file 'diff_drive_odometry_node.egg-info/SOURCES.txt'
+[11.235s] running build_ext
+[11.236s] Creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff-drive-odometry-node.egg-link (link to .)
+[11.238s] Installing diff_drive_odometry_node script to /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/diff_drive_odometry_node
+[11.238s] 
+[11.239s] Installed /home/nathaniel/fxb_ws/build/diff_drive_odometry_node
+[11.240s] running symlink_data
+[12.145s] Invoked command in '/home/nathaniel/fxb_ws/build/diff_drive_odometry_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build --no-deps symlink_data

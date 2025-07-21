@@ -1,0 +1,17 @@
+[8.159s] Invoking command in '/home/nathaniel/fxb_ws/build/camera_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/camera_node/build --no-deps symlink_data
+[9.922s] running develop
+[10.907s] running egg_info
+[10.974s] writing camera_node.egg-info/PKG-INFO
+[10.975s] writing dependency_links to camera_node.egg-info/dependency_links.txt
+[10.976s] writing entry points to camera_node.egg-info/entry_points.txt
+[10.976s] writing requirements to camera_node.egg-info/requires.txt
+[10.977s] writing top-level names to camera_node.egg-info/top_level.txt
+[11.112s] reading manifest file 'camera_node.egg-info/SOURCES.txt'
+[11.115s] writing manifest file 'camera_node.egg-info/SOURCES.txt'
+[11.191s] running build_ext
+[11.191s] Creating /home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages/camera-node.egg-link (link to .)
+[11.193s] Installing camera_node script to /home/nathaniel/fxb_ws/install/camera_node/lib/camera_node
+[11.195s] 
+[11.195s] Installed /home/nathaniel/fxb_ws/build/camera_node
+[11.195s] running symlink_data
+[11.604s] Invoked command in '/home/nathaniel/fxb_ws/build/camera_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/camera_node/build --no-deps symlink_data

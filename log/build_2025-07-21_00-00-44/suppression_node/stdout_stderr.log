@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing suppression_node.egg-info/PKG-INFO
+writing dependency_links to suppression_node.egg-info/dependency_links.txt
+writing entry points to suppression_node.egg-info/entry_points.txt
+writing requirements to suppression_node.egg-info/requires.txt
+writing top-level names to suppression_node.egg-info/top_level.txt
+reading manifest file 'suppression_node.egg-info/SOURCES.txt'
+writing manifest file 'suppression_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nathaniel/fxb_ws/install/suppression_node/lib/python3.12/site-packages/suppression-node.egg-link (link to .)
+Installing suppression_node script to /home/nathaniel/fxb_ws/install/suppression_node/lib/suppression_node
+
+Installed /home/nathaniel/fxb_ws/build/suppression_node
+running symlink_data
+symbolically linking /home/nathaniel/fxb_ws/build/suppression_node/resource/suppression_node -> /home/nathaniel/fxb_ws/install/suppression_node/share/ament_index/resource_index/packages
+symbolically linking /home/nathaniel/fxb_ws/build/suppression_node/package.xml -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node
+symbolically linking /home/nathaniel/fxb_ws/build/suppression_node/launch/suppression_node.launch.py -> /home/nathaniel/fxb_ws/install/suppression_node/share/suppression_node/launch

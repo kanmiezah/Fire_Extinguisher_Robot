@@ -1,0 +1,19 @@
+[8.058s] Invoking command in '/home/nathaniel/fxb_ws/build/sensor_fusion_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/sensor_fusion_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/sensor_fusion_node/build --no-deps symlink_data --force
+[9.602s] running develop
+[10.432s] running egg_info
+[10.519s] writing sensor_fusion_node.egg-info/PKG-INFO
+[10.524s] writing dependency_links to sensor_fusion_node.egg-info/dependency_links.txt
+[10.524s] writing entry points to sensor_fusion_node.egg-info/entry_points.txt
+[10.525s] writing requirements to sensor_fusion_node.egg-info/requires.txt
+[10.525s] writing top-level names to sensor_fusion_node.egg-info/top_level.txt
+[10.673s] reading manifest file 'sensor_fusion_node.egg-info/SOURCES.txt'
+[10.675s] writing manifest file 'sensor_fusion_node.egg-info/SOURCES.txt'
+[10.750s] running build_ext
+[10.751s] Creating /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor-fusion-node.egg-link (link to .)
+[10.754s] Installing sensor_fusion_node script to /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/sensor_fusion_node
+[10.756s] 
+[10.757s] Installed /home/nathaniel/fxb_ws/build/sensor_fusion_node
+[10.757s] running symlink_data
+[10.757s] symbolically linking /home/nathaniel/fxb_ws/build/sensor_fusion_node/resource/sensor_fusion_node -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/share/ament_index/resource_index/packages
+[10.760s] symbolically linking /home/nathaniel/fxb_ws/build/sensor_fusion_node/package.xml -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/share/sensor_fusion_node
+[10.760s] symbolically linking /home/nathaniel/fxb_ws/build/sensor_fusion_node/launch/sensor_fusion.launch.py -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/share/sensor_fusion_node/launch

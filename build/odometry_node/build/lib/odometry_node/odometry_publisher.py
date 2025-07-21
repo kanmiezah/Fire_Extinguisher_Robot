@@ -7,21 +7,37 @@ import serial
 import math
 import time
 
+from tf_transformations import quaternion_from_euler
+
 
 class OdometryNode(Node):
     def __init__(self):
         super().__init__('odometry_node')
 
-        # Serial port config
-        self.serial_port = serial.Serial('/dev/ttyUSB1', 115200, timeout=0.1)
-        time.sleep(2)  # Allow serial to initialize
+        # Declare ROS parameters
+        self.declare_parameter('serial_port', '/dev/ttyUSB1')
+        self.declare_parameter('baudrate', 115200)
+        self.declare_parameter('wheel_radius', 0.03)
+        self.declare_parameter('wheel_base', 0.15)
+        self.declare_parameter('ticks_per_rev', 3200)
 
-        # Robot parameters
-        self.wheel_radius = 0.03  # meters
-        self.wheel_base = 0.15    # meters
-        self.ticks_per_rev = 3200
+        # Retrieve parameters
+        port = self.get_parameter('serial_port').get_parameter_value().string_value
+        baudrate = self.get_parameter('baudrate').get_parameter_value().integer_value
+        self.wheel_radius = self.get_parameter('wheel_radius').get_parameter_value().double_value
+        self.wheel_base = self.get_parameter('wheel_base').get_parameter_value().double_value
+        self.ticks_per_rev = self.get_parameter('ticks_per_rev').get_parameter_value().integer_value
 
-        # Odometry state
+        # Connect to serial port
+        try:
+            self.serial_port = serial.Serial(port, baudrate, timeout=0.1)
+            time.sleep(2)  # Allow serial to initialize
+            self.get_logger().info(f"Connected to serial port: {port}")
+        except serial.SerialException as e:
+            self.get_logger().error(f"Failed to connect to {port}: {e}")
+            exit(1)
+
+        # Initialize odometry state
         self.x = 0.0
         self.y = 0.0
         self.theta = 0.0
@@ -78,6 +94,9 @@ class OdometryNode(Node):
         vx = delta_s / dt
         vth = delta_theta / dt
 
+        # Quaternion from theta
+        q = quaternion_from_euler(0, 0, self.theta)
+
         # Publish Odometry
         odom_msg = Odometry()
         odom_msg.header.stamp = self.get_clock().now().to_msg()
@@ -85,8 +104,10 @@ class OdometryNode(Node):
         odom_msg.child_frame_id = "base_link"
         odom_msg.pose.pose.position.x = self.x
         odom_msg.pose.pose.position.y = self.y
-        odom_msg.pose.pose.orientation.z = math.sin(self.theta / 2.0)
-        odom_msg.pose.pose.orientation.w = math.cos(self.theta / 2.0)
+        odom_msg.pose.pose.orientation.x = q[0]
+        odom_msg.pose.pose.orientation.y = q[1]
+        odom_msg.pose.pose.orientation.z = q[2]
+        odom_msg.pose.pose.orientation.w = q[3]
         odom_msg.twist.twist.linear.x = vx
         odom_msg.twist.twist.angular.z = vth
 
@@ -94,13 +115,17 @@ class OdometryNode(Node):
 
         # Broadcast TF
         t = TransformStamped()
-        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.stamp = odom_msg.header.stamp
         t.header.frame_id = "odom"
         t.child_frame_id = "base_link"
         t.transform.translation.x = self.x
         t.transform.translation.y = self.y
-        t.transform.rotation.z = math.sin(self.theta / 2.0)
-        t.transform.rotation.w = math.cos(self.theta / 2.0)
+        t.transform.translation.z = 0.0
+        t.transform.rotation.x = q[0]
+        t.transform.rotation.y = q[1]
+        t.transform.rotation.z = q[2]
+        t.transform.rotation.w = q[3]
+
         self.tf_broadcaster.sendTransform(t)
 
 
@@ -110,6 +135,7 @@ def main(args=None):
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

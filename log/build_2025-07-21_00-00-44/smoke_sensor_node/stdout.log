@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing smoke_sensor_node.egg-info/PKG-INFO
+writing dependency_links to smoke_sensor_node.egg-info/dependency_links.txt
+writing entry points to smoke_sensor_node.egg-info/entry_points.txt
+writing requirements to smoke_sensor_node.egg-info/requires.txt
+writing top-level names to smoke_sensor_node.egg-info/top_level.txt
+reading manifest file 'smoke_sensor_node.egg-info/SOURCES.txt'
+writing manifest file 'smoke_sensor_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke-sensor-node.egg-link (link to .)
+Installing smoke_sensor_node script to /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/smoke_sensor_node
+
+Installed /home/nathaniel/fxb_ws/build/smoke_sensor_node
+running symlink_data
+symbolically linking /home/nathaniel/fxb_ws/build/smoke_sensor_node/resource/smoke_sensor_node -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/ament_index/resource_index/packages
+symbolically linking /home/nathaniel/fxb_ws/build/smoke_sensor_node/package.xml -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node
+symbolically linking /home/nathaniel/fxb_ws/build/smoke_sensor_node/launch/smoke_sensor_node.launch.py -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node/launch

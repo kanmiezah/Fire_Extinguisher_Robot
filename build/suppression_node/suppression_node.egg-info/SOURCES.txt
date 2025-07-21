@@ -12,6 +12,10 @@ launch/suppression_node.launch.py
 resource/suppression_node
 suppression_node/__init__.py
 suppression_node/suppression_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+suppression_node.egg-info/PKG-INFO
+suppression_node.egg-info/SOURCES.txt
+suppression_node.egg-info/dependency_links.txt
+suppression_node.egg-info/entry_points.txt
+suppression_node.egg-info/requires.txt
+suppression_node.egg-info/top_level.txt
+suppression_node.egg-info/zip-safe

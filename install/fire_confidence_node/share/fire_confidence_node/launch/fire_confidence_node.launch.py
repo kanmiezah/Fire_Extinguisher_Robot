@@ -1,0 +1,1 @@
+/home/nathaniel/fxb_ws/build/fire_confidence_node/launch/fire_confidence_node.launch.py

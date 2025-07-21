@@ -10,9 +10,13 @@ setup.py
 ../../build/yolo_inference/yolo_inference.egg-info/zip-safe
 launch/yolo_node.launch.py
 resource/yolo_inference
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 yolo_inference/__init__.py
 yolo_inference/yolo_node.py
 yolo_inference/yolo_node_entry.py
+yolo_inference.egg-info/PKG-INFO
+yolo_inference.egg-info/SOURCES.txt
+yolo_inference.egg-info/dependency_links.txt
+yolo_inference.egg-info/entry_points.txt
+yolo_inference.egg-info/requires.txt
+yolo_inference.egg-info/top_level.txt
+yolo_inference.egg-info/zip-safe

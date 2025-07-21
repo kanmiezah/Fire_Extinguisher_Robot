@@ -1,0 +1,19 @@
+[8.092s] Invoking command in '/home/nathaniel/fxb_ws/build/smoke_sensor_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/smoke_sensor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/smoke_sensor_node/build --no-deps symlink_data --force
+[10.574s] running develop
+[10.574s] running egg_info
+[10.574s] writing smoke_sensor_node.egg-info/PKG-INFO
+[10.574s] writing dependency_links to smoke_sensor_node.egg-info/dependency_links.txt
+[10.575s] writing entry points to smoke_sensor_node.egg-info/entry_points.txt
+[10.575s] writing requirements to smoke_sensor_node.egg-info/requires.txt
+[10.575s] writing top-level names to smoke_sensor_node.egg-info/top_level.txt
+[10.575s] reading manifest file 'smoke_sensor_node.egg-info/SOURCES.txt'
+[10.576s] writing manifest file 'smoke_sensor_node.egg-info/SOURCES.txt'
+[10.576s] running build_ext
+[10.576s] Creating /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/python3.12/site-packages/smoke-sensor-node.egg-link (link to .)
+[10.576s] Installing smoke_sensor_node script to /home/nathaniel/fxb_ws/install/smoke_sensor_node/lib/smoke_sensor_node
+[10.584s] 
+[10.586s] Installed /home/nathaniel/fxb_ws/build/smoke_sensor_node
+[10.587s] running symlink_data
+[10.587s] symbolically linking /home/nathaniel/fxb_ws/build/smoke_sensor_node/resource/smoke_sensor_node -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/ament_index/resource_index/packages
+[10.588s] symbolically linking /home/nathaniel/fxb_ws/build/smoke_sensor_node/package.xml -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node
+[10.588s] symbolically linking /home/nathaniel/fxb_ws/build/smoke_sensor_node/launch/smoke_sensor_node.launch.py -> /home/nathaniel/fxb_ws/install/smoke_sensor_node/share/smoke_sensor_node/launch

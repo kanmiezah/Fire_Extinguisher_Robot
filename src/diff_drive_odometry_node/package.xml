@@ -2,9 +2,9 @@
 <package format="3">
   <name>diff_drive_odometry_node</name>
   <version>0.0.1</version>
-  <description>Odometry node using wheel encoders from Arduino</description>
+  <description>Odometry node using wheel encoders from Arduino for differential drive robots.</description>
 
-  <maintainer email="your@email.com">Your Name</maintainer>
+  <maintainer email="nathaniel.miezah@example.com">Nathaniel Kangah Miezah</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
@@ -13,6 +13,7 @@
   <exec_depend>nav_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf_transformations</exec_depend> <!-- important if using quaternion_from_euler -->
 
   <export>
     <build_type>ament_python</build_type>

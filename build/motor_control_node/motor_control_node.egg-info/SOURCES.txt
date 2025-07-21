@@ -11,7 +11,11 @@ setup.py
 launch/motor_control.launch.py
 motor_control_node/__init__.py
 motor_control_node/motor_control_node.py
+motor_control_node.egg-info/PKG-INFO
+motor_control_node.egg-info/SOURCES.txt
+motor_control_node.egg-info/dependency_links.txt
+motor_control_node.egg-info/entry_points.txt
+motor_control_node.egg-info/requires.txt
+motor_control_node.egg-info/top_level.txt
+motor_control_node.egg-info/zip-safe
 resource/motor_control_node
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

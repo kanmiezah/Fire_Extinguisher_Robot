@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing state_machine_node.egg-info/PKG-INFO
+writing dependency_links to state_machine_node.egg-info/dependency_links.txt
+writing entry points to state_machine_node.egg-info/entry_points.txt
+writing requirements to state_machine_node.egg-info/requires.txt
+writing top-level names to state_machine_node.egg-info/top_level.txt
+reading manifest file 'state_machine_node.egg-info/SOURCES.txt'
+writing manifest file 'state_machine_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state-machine-node.egg-link (link to .)
+Installing state_machine_node script to /home/nathaniel/fxb_ws/install/state_machine_node/lib/state_machine_node
+
+Installed /home/nathaniel/fxb_ws/build/state_machine_node
+running symlink_data
+symbolically linking /home/nathaniel/fxb_ws/build/state_machine_node/resource/state_machine_node -> /home/nathaniel/fxb_ws/install/state_machine_node/share/ament_index/resource_index/packages
+symbolically linking /home/nathaniel/fxb_ws/build/state_machine_node/package.xml -> /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node
+symbolically linking /home/nathaniel/fxb_ws/build/state_machine_node/launch/state_machine.launch.py -> /home/nathaniel/fxb_ws/install/state_machine_node/share/state_machine_node/launch

@@ -1,0 +1,25 @@
+[8.156s] Invoking command in '/home/nathaniel/fxb_ws/build/fire_confidence_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/fire_confidence_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/fire_confidence_node/build --no-deps symlink_data
+[10.661s] running develop
+[10.711s] running egg_info
+[10.712s] creating fire_confidence_node.egg-info
+[10.784s] writing fire_confidence_node.egg-info/PKG-INFO
+[10.785s] writing dependency_links to fire_confidence_node.egg-info/dependency_links.txt
+[10.785s] writing entry points to fire_confidence_node.egg-info/entry_points.txt
+[10.786s] writing requirements to fire_confidence_node.egg-info/requires.txt
+[10.787s] writing top-level names to fire_confidence_node.egg-info/top_level.txt
+[10.787s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[10.935s] reading manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[10.936s] writing manifest file 'fire_confidence_node.egg-info/SOURCES.txt'
+[11.060s] running build_ext
+[11.061s] Creating /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/python3.12/site-packages/fire-confidence-node.egg-link (link to .)
+[11.065s] Installing fire_confidence_node script to /home/nathaniel/fxb_ws/install/fire_confidence_node/lib/fire_confidence_node
+[11.066s] 
+[11.067s] Installed /home/nathaniel/fxb_ws/build/fire_confidence_node
+[11.067s] running symlink_data
+[11.069s] creating /home/nathaniel/fxb_ws/install/fire_confidence_node/share/ament_index
+[11.070s] creating /home/nathaniel/fxb_ws/install/fire_confidence_node/share/ament_index/resource_index
+[11.072s] creating /home/nathaniel/fxb_ws/install/fire_confidence_node/share/ament_index/resource_index/packages
+[11.073s] symbolically linking /home/nathaniel/fxb_ws/build/fire_confidence_node/resource/fire_confidence_node -> /home/nathaniel/fxb_ws/install/fire_confidence_node/share/ament_index/resource_index/packages
+[11.078s] symbolically linking /home/nathaniel/fxb_ws/build/fire_confidence_node/package.xml -> /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node
+[11.080s] creating /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/launch
+[11.082s] symbolically linking /home/nathaniel/fxb_ws/build/fire_confidence_node/launch/fire_confidence_node.launch.py -> /home/nathaniel/fxb_ws/install/fire_confidence_node/share/fire_confidence_node/launch

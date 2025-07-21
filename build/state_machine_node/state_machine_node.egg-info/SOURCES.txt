@@ -12,6 +12,10 @@ launch/state_machine.launch.py
 resource/state_machine_node
 state_machine_node/__init__.py
 state_machine_node/state_machine_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+state_machine_node.egg-info/PKG-INFO
+state_machine_node.egg-info/SOURCES.txt
+state_machine_node.egg-info/dependency_links.txt
+state_machine_node.egg-info/entry_points.txt
+state_machine_node.egg-info/requires.txt
+state_machine_node.egg-info/top_level.txt
+state_machine_node.egg-info/zip-safe

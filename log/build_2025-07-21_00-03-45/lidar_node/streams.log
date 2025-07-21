@@ -1,0 +1,18 @@
+[2.772s] Invoking command in '/home/nathaniel/fxb_ws/build/lidar_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/lidar_node/build --no-deps symlink_data --force
+[3.537s] running develop
+[3.994s] running egg_info
+[4.034s] writing lidar_node.egg-info/PKG-INFO
+[4.034s] writing dependency_links to lidar_node.egg-info/dependency_links.txt
+[4.034s] writing requirements to lidar_node.egg-info/requires.txt
+[4.035s] writing top-level names to lidar_node.egg-info/top_level.txt
+[4.087s] reading manifest file 'lidar_node.egg-info/SOURCES.txt'
+[4.089s] writing manifest file 'lidar_node.egg-info/SOURCES.txt'
+[4.141s] running build_ext
+[4.200s] Creating /home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages/lidar-node.egg-link (link to .)
+[4.202s] 
+[4.202s] Installed /home/nathaniel/fxb_ws/build/lidar_node
+[4.202s] running symlink_data
+[4.203s] symbolically linking /home/nathaniel/fxb_ws/build/lidar_node/resource/lidar_node -> /home/nathaniel/fxb_ws/install/lidar_node/share/ament_index/resource_index/packages
+[4.203s] symbolically linking /home/nathaniel/fxb_ws/build/lidar_node/package.xml -> /home/nathaniel/fxb_ws/install/lidar_node/share/lidar_node
+[4.204s] symbolically linking /home/nathaniel/fxb_ws/build/lidar_node/launch/lidar.launch.py -> /home/nathaniel/fxb_ws/install/lidar_node/share/lidar_node/launch
+[4.270s] Invoked command in '/home/nathaniel/fxb_ws/build/lidar_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/lidar_node/build --no-deps symlink_data --force

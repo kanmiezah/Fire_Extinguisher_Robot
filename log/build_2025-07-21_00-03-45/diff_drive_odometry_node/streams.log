@@ -1,0 +1,21 @@
+[6.338s] Invoking command in '/home/nathaniel/fxb_ws/build/diff_drive_odometry_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build --no-deps symlink_data --force
+[8.721s] running develop
+[8.729s] running egg_info
+[8.729s] writing diff_drive_odometry_node.egg-info/PKG-INFO
+[8.729s] writing dependency_links to diff_drive_odometry_node.egg-info/dependency_links.txt
+[8.730s] writing entry points to diff_drive_odometry_node.egg-info/entry_points.txt
+[8.730s] writing requirements to diff_drive_odometry_node.egg-info/requires.txt
+[8.730s] writing top-level names to diff_drive_odometry_node.egg-info/top_level.txt
+[8.730s] reading manifest file 'diff_drive_odometry_node.egg-info/SOURCES.txt'
+[8.731s] writing manifest file 'diff_drive_odometry_node.egg-info/SOURCES.txt'
+[8.817s] running build_ext
+[8.817s] Creating /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages/diff-drive-odometry-node.egg-link (link to .)
+[8.818s] Installing diff_drive_odometry_node script to /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/diff_drive_odometry_node
+[8.819s] 
+[8.819s] Installed /home/nathaniel/fxb_ws/build/diff_drive_odometry_node
+[8.820s] running symlink_data
+[8.820s] symbolically linking /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/resource/diff_drive_odometry_node -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/ament_index/resource_index/packages
+[8.821s] symbolically linking /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/package.xml -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/diff_drive_odometry_node
+[8.822s] symbolically linking /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/launch/diff_drive_odometry.launch.py -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/diff_drive_odometry_node/launch
+[8.822s] symbolically linking /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/README.md -> /home/nathaniel/fxb_ws/install/diff_drive_odometry_node/share/diff_drive_odometry_node
+[9.616s] Invoked command in '/home/nathaniel/fxb_ws/build/diff_drive_odometry_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/diff_drive_odometry_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/diff_drive_odometry_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/diff_drive_odometry_node/build --no-deps symlink_data --force

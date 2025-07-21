@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: state-machine-node
 Version: 0.0.1
-Summary: State machine controlling patrol, scan, suppress, and rest
-Maintainer: your_name
-Maintainer-email: your@email.com
+Summary: State machine controlling patrol, scan, suppress, and rest logic in a firefighting robot.
+Maintainer: Nathaniel Kangah Miezah
+Maintainer-email: nathaniel@example.com
 License: MIT

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing sensor_fusion_node.egg-info/PKG-INFO
+writing dependency_links to sensor_fusion_node.egg-info/dependency_links.txt
+writing entry points to sensor_fusion_node.egg-info/entry_points.txt
+writing requirements to sensor_fusion_node.egg-info/requires.txt
+writing top-level names to sensor_fusion_node.egg-info/top_level.txt
+reading manifest file 'sensor_fusion_node.egg-info/SOURCES.txt'
+writing manifest file 'sensor_fusion_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/python3.12/site-packages/sensor-fusion-node.egg-link (link to .)
+Installing sensor_fusion_node script to /home/nathaniel/fxb_ws/install/sensor_fusion_node/lib/sensor_fusion_node
+
+Installed /home/nathaniel/fxb_ws/build/sensor_fusion_node
+running symlink_data
+symbolically linking /home/nathaniel/fxb_ws/build/sensor_fusion_node/resource/sensor_fusion_node -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/share/ament_index/resource_index/packages
+symbolically linking /home/nathaniel/fxb_ws/build/sensor_fusion_node/package.xml -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/share/sensor_fusion_node
+symbolically linking /home/nathaniel/fxb_ws/build/sensor_fusion_node/launch/sensor_fusion.launch.py -> /home/nathaniel/fxb_ws/install/sensor_fusion_node/share/sensor_fusion_node/launch

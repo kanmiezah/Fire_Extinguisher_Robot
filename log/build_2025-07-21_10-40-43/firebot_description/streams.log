@@ -1,0 +1,29 @@
+[0.826s] Invoking command in '/home/nathaniel/fxb_ws/build/firebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/firebot_description -- -j8 -l8
+[1.394s] Invoked command in '/home/nathaniel/fxb_ws/build/firebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nathaniel/fxb_ws/build/firebot_description -- -j8 -l8
+[1.429s] Invoking command in '/home/nathaniel/fxb_ws/build/firebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/firebot_description
+[1.448s] -- Install configuration: ""
+[1.450s] -- Execute custom install script
+[1.457s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/launch/description.launch.py
+[1.459s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/camera.xacro
+[1.460s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/inertial_macros.xacro
+[1.461s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/lidar.xacro
+[1.461s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/robot.urdf.xacro
+[1.462s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/urdf/robot_core.xacro
+[1.464s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/package_run_dependencies/firebot_description
+[1.466s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/parent_prefix_path/firebot_description
+[1.467s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/ament_prefix_path.sh
+[1.469s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/ament_prefix_path.dsv
+[1.471s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/path.sh
+[1.472s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/environment/path.dsv
+[1.473s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.bash
+[1.474s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.sh
+[1.475s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.zsh
+[1.476s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/local_setup.dsv
+[1.477s] -- Symlinking: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.dsv
+[1.505s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/ament_index/resource_index/packages/firebot_description
+[1.506s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig.cmake
+[1.507s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/cmake/firebot_descriptionConfig-version.cmake
+[1.508s] -- Up-to-date symlink: /home/nathaniel/fxb_ws/install/firebot_description/share/firebot_description/package.xml
+[1.513s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/include/
+[1.514s] -- Up-to-date: /home/nathaniel/fxb_ws/install/firebot_description/include//firebot_description
+[1.521s] Invoked command in '/home/nathaniel/fxb_ws/build/firebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nathaniel/fxb_ws/build/firebot_description

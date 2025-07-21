@@ -16,7 +16,7 @@ set(_firebot_description_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT firebot_description_FIND_QUIETLY)
-  message(STATUS "Found firebot_description: 0.0.0 (${firebot_description_DIR})")
+  message(STATUS "Found firebot_description: 0.0.1 (${firebot_description_DIR})")
 endif()
 
 # warn when using a deprecated package

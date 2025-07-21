@@ -1,0 +1,17 @@
+[5.504s] Invoking command in '/home/nathaniel/fxb_ws/build/state_machine_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/state_machine_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/state_machine_node/build --no-deps symlink_data
+[6.594s] running develop
+[7.327s] running egg_info
+[7.403s] writing state_machine_node.egg-info/PKG-INFO
+[7.404s] writing dependency_links to state_machine_node.egg-info/dependency_links.txt
+[7.405s] writing entry points to state_machine_node.egg-info/entry_points.txt
+[7.405s] writing requirements to state_machine_node.egg-info/requires.txt
+[7.406s] writing top-level names to state_machine_node.egg-info/top_level.txt
+[7.547s] reading manifest file 'state_machine_node.egg-info/SOURCES.txt'
+[7.550s] writing manifest file 'state_machine_node.egg-info/SOURCES.txt'
+[7.639s] running build_ext
+[7.639s] Creating /home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages/state-machine-node.egg-link (link to .)
+[7.640s] Installing state_machine_node script to /home/nathaniel/fxb_ws/install/state_machine_node/lib/state_machine_node
+[7.640s] 
+[7.640s] Installed /home/nathaniel/fxb_ws/build/state_machine_node
+[7.640s] running symlink_data
+[7.835s] Invoked command in '/home/nathaniel/fxb_ws/build/state_machine_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/state_machine_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/state_machine_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/state_machine_node/build --no-deps symlink_data

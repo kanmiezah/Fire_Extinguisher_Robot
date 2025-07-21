@@ -1,2 +1,1 @@
-source;share/firebot_description/environment/ament_prefix_path.sh
-source;share/firebot_description/environment/path.sh
+/home/nathaniel/fxb_ws/build/firebot_description/ament_cmake_environment_hooks/local_setup.dsv

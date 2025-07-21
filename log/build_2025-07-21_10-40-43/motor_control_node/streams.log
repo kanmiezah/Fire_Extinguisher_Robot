@@ -1,0 +1,17 @@
+[8.064s] Invoking command in '/home/nathaniel/fxb_ws/build/motor_control_node': PYTHONPATH=/home/nathaniel/fxb_ws/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/motor_control_node/build --no-deps symlink_data
+[9.241s] running develop
+[10.056s] running egg_info
+[10.136s] writing motor_control_node.egg-info/PKG-INFO
+[10.142s] writing dependency_links to motor_control_node.egg-info/dependency_links.txt
+[10.142s] writing entry points to motor_control_node.egg-info/entry_points.txt
+[10.142s] writing requirements to motor_control_node.egg-info/requires.txt
+[10.142s] writing top-level names to motor_control_node.egg-info/top_level.txt
+[10.311s] reading manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[10.318s] writing manifest file 'motor_control_node.egg-info/SOURCES.txt'
+[10.410s] running build_ext
+[10.416s] Creating /home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages/motor-control-node.egg-link (link to .)
+[10.418s] Installing motor_control_node script to /home/nathaniel/fxb_ws/install/motor_control_node/lib/motor_control
+[10.418s] 
+[10.418s] Installed /home/nathaniel/fxb_ws/build/motor_control_node
+[10.418s] running symlink_data
+[10.575s] Invoked command in '/home/nathaniel/fxb_ws/build/motor_control_node' returned '0': PYTHONPATH=/home/nathaniel/fxb_ws/build/motor_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathaniel/fxb_ws/install/motor_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nathaniel/fxb_ws/build/motor_control_node/build --no-deps symlink_data

@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: odometry-node
 Version: 0.1.0
-Summary: Reads Arduino encoder data and publishes Odometry for Nav2/SLAM.
+Summary: ROS 2 node that reads encoder data over serial and publishes nav_msgs/Odometry for SLAM and navigation.
 Maintainer: Nathaniel Kangah Miezah
 Maintainer-email: your_email@example.com
 License: MIT

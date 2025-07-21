@@ -7,6 +7,13 @@ setup.py
 ../../build/bringup/bringup.egg-info/requires.txt
 ../../build/bringup/bringup.egg-info/top_level.txt
 ../../build/bringup/bringup.egg-info/zip-safe
+bringup/__init__.py
+bringup.egg-info/PKG-INFO
+bringup.egg-info/SOURCES.txt
+bringup.egg-info/dependency_links.txt
+bringup.egg-info/requires.txt
+bringup.egg-info/top_level.txt
+bringup.egg-info/zip-safe
 config/mapper_params_online_async.yaml
 config/nav2_params.yaml
 config/slam_config.yaml
@@ -14,6 +21,3 @@ launch/bringup.launch.py
 launch/nav2_launch.py
 launch/slam_launch.py
 resource/bringup
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

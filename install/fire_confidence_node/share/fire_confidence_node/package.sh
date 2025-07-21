@@ -79,10 +79,8 @@ _colcon_package_sh_source_script() {
 
 # source sh hooks
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/fire_confidence_node/hook/pythonpath.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/fire_confidence_node/hook/ros_package_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/fire_confidence_node/hook/catkin_pythonpath.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/fire_confidence_node/hook/pkg_config_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/fire_confidence_node/hook/pkg_config_path_multiarch.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/fire_confidence_node/hook/ament_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/../../build/fire_confidence_node/share/fire_confidence_node/hook/pythonpath_develop.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX
